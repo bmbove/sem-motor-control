@@ -1,4 +1,4 @@
-update=Tue 21 Jul 2015 08:31:56 PM PDT
+update=Wed 22 Jul 2015 09:47:17 AM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,3 +58,13 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=/home/brian/projects/shell/asme/plot/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
