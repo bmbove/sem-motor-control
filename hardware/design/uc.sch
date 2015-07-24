@@ -1,0 +1,308 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TMS320F28069MPNT U?
+U 1 1 55B1D45A
+P 6000 3850
+F 0 "U?" V 5800 3850 50  0000 C CNN
+F 1 "TMS320F28069MPNT" V 6000 3950 50  0000 C CNN
+F 2 "MODULE" H 6000 3850 50  0001 C CNN
+F 3 "DOCUMENTATION" H 6000 3850 50  0001 C CNN
+	1    6000 3850
+	0    -1   -1   0   
+$EndComp
+Text HLabel 3700 4250 0    60   Input ~ 0
+V_3.3
+$Comp
+L CONN_02X07 P?
+U 1 1 55B1D5F9
+P 1850 1550
+F 0 "P?" H 1850 1950 50  0000 C CNN
+F 1 "JTAG" V 1850 1550 50  0000 C CNN
+F 2 "" H 1850 350 60  0000 C CNN
+F 3 "" H 1850 350 60  0000 C CNN
+	1    1850 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3050 1300 3050
+Wire Wire Line
+	1300 3050 1300 1250
+Wire Wire Line
+	1300 1250 1600 1250
+Wire Wire Line
+	4300 3550 2400 3550
+Wire Wire Line
+	2400 1250 2400 3650
+Wire Wire Line
+	2400 1250 2100 1250
+Wire Wire Line
+	5300 2150 5300 2000
+Wire Wire Line
+	5300 2000 1400 2000
+Wire Wire Line
+	1400 2000 1400 1350
+Wire Wire Line
+	1400 1350 1600 1350
+Wire Wire Line
+	4300 3150 1500 3150
+Wire Wire Line
+	1500 3150 1500 1550
+Wire Wire Line
+	1500 1550 1600 1550
+Wire Wire Line
+	4300 3250 1100 3250
+Wire Wire Line
+	1100 3250 1100 1650
+Wire Wire Line
+	1100 1650 1600 1650
+Wire Wire Line
+	1600 1750 1100 1750
+Connection ~ 1100 1750
+Text HLabel 1050 1450 0    60   Input ~ 0
+V_3.3
+Wire Wire Line
+	1600 1450 1050 1450
+Wire Wire Line
+	2100 1550 2750 1550
+Wire Wire Line
+	2750 1550 2750 1750
+$Comp
+L GND #PWR?
+U 1 1 55B1DA01
+P 2750 1750
+F 0 "#PWR?" H 2750 1500 50  0001 C CNN
+F 1 "GND" H 2750 1600 50  0000 C CNN
+F 2 "" H 2750 1750 60  0000 C CNN
+F 3 "" H 2750 1750 60  0000 C CNN
+	1    2750 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1650 2250 1650
+Wire Wire Line
+	2250 1350 2250 1750
+Connection ~ 2250 1550
+Wire Wire Line
+	2250 1750 2100 1750
+Connection ~ 2250 1650
+Wire Wire Line
+	2100 1350 2250 1350
+NoConn ~ 2100 1450
+Wire Wire Line
+	2100 1850 2100 3950
+Wire Wire Line
+	1600 1850 1600 3950
+$Comp
+L R R?
+U 1 1 55B1DC48
+P 1600 4100
+F 0 "R?" V 1680 4100 50  0000 C CNN
+F 1 "4.7k" V 1600 4100 50  0000 C CNN
+F 2 "" V 1530 4100 30  0000 C CNN
+F 3 "" H 1600 4100 30  0000 C CNN
+	1    1600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 55B1DC67
+P 2100 4100
+F 0 "R?" V 2180 4100 50  0000 C CNN
+F 1 "4.7k" V 2100 4100 50  0000 C CNN
+F 2 "" V 2030 4100 30  0000 C CNN
+F 3 "" H 2100 4100 30  0000 C CNN
+	1    2100 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 4450 1600 4250
+Wire Wire Line
+	2100 4250 2100 4450
+Connection ~ 2100 4450
+$Comp
+L R R?
+U 1 1 55B1E016
+P 2400 3800
+F 0 "R?" V 2480 3800 50  0000 C CNN
+F 1 "2.2k" V 2400 3800 50  0000 C CNN
+F 2 "" V 2330 3800 30  0000 C CNN
+F 3 "" H 2400 3800 30  0000 C CNN
+	1    2400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55B1E039
+P 2400 4100
+F 0 "#PWR?" H 2400 3850 50  0001 C CNN
+F 1 "GND" H 2400 3950 50  0000 C CNN
+F 2 "" H 2400 4100 60  0000 C CNN
+F 3 "" H 2400 4100 60  0000 C CNN
+	1    2400 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3950 2400 4100
+Connection ~ 2400 3550
+Wire Wire Line
+	3700 4250 4300 4250
+NoConn ~ 4300 3450
+$Comp
+L C C?
+U 1 1 55B1EBBF
+P 3700 4900
+F 0 "C?" H 3725 5000 50  0000 L CNN
+F 1 "2.2u" H 3725 4800 50  0000 L CNN
+F 2 "" H 3738 4750 30  0000 C CNN
+F 3 "" H 3700 4900 60  0000 C CNN
+	1    3700 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55B1EC20
+P 3700 5200
+F 0 "#PWR?" H 3700 4950 50  0001 C CNN
+F 1 "GND" H 3700 5050 50  0000 C CNN
+F 2 "" H 3700 5200 60  0000 C CNN
+F 3 "" H 3700 5200 60  0000 C CNN
+	1    3700 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5050 3700 5200
+Text Notes 3100 5200 0    60   ~ 0
+Place close\nto Vdda pin
+Wire Wire Line
+	4300 3650 3250 3650
+Wire Wire Line
+	3250 3650 3250 3750
+$Comp
+L GND #PWR?
+U 1 1 55B1EE6C
+P 3250 3750
+F 0 "#PWR?" H 3250 3500 50  0001 C CNN
+F 1 "GND" H 3250 3600 50  0000 C CNN
+F 2 "" H 3250 3750 60  0000 C CNN
+F 3 "" H 3250 3750 60  0000 C CNN
+	1    3250 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3750 4300 3750
+Wire Wire Line
+	4300 4450 1600 4450
+Wire Wire Line
+	4300 4150 3900 4150
+Wire Wire Line
+	3900 3750 3900 4450
+Connection ~ 3900 4250
+Wire Wire Line
+	3700 4350 4300 4350
+Connection ~ 3900 4450
+Connection ~ 3900 4350
+Connection ~ 3900 4150
+$Comp
+L GND #PWR?
+U 1 1 55B1F0E0
+P 4300 5200
+F 0 "#PWR?" H 4300 4950 50  0001 C CNN
+F 1 "GND" H 4300 5050 50  0000 C CNN
+F 2 "" H 4300 5200 60  0000 C CNN
+F 3 "" H 4300 5200 60  0000 C CNN
+	1    4300 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4550 4300 5200
+Wire Wire Line
+	3700 4350 3700 4750
+$Comp
+L C C?
+U 1 1 55B1F236
+P 4050 4900
+F 0 "C?" H 4075 5000 50  0000 L CNN
+F 1 "50n" H 4075 4800 50  0000 L CNN
+F 2 "" H 4088 4750 30  0000 C CNN
+F 3 "" H 4050 4900 60  0000 C CNN
+	1    4050 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4050 4050 4050
+Wire Wire Line
+	4050 4050 4050 4750
+$Comp
+L GND #PWR?
+U 1 1 55B1F2D3
+P 4050 5200
+F 0 "#PWR?" H 4050 4950 50  0001 C CNN
+F 1 "GND" H 4050 5050 50  0000 C CNN
+F 2 "" H 4050 5200 60  0000 C CNN
+F 3 "" H 4050 5200 60  0000 C CNN
+	1    4050 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5050 4050 5200
+$Comp
+L R R?
+U 1 1 55B1F34E
+P 4050 3900
+F 0 "R?" V 4130 3900 50  0000 C CNN
+F 1 "2.2k" V 4050 3900 50  0000 C CNN
+F 2 "" V 3980 3900 30  0000 C CNN
+F 3 "" H 4050 3900 30  0000 C CNN
+	1    4050 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3850 4200 3850
+Wire Wire Line
+	4200 3850 4200 3650
+Connection ~ 4200 3650
+NoConn ~ 4300 3950
+$EndSCHEMATC

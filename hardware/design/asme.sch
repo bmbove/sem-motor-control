@@ -28,12 +28,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:asme-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 1
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -60,5 +59,11 @@ F10 "MOTOR_C" O R 2800 1500 60
 F11 "C_LO" I L 1450 1650 60 
 F12 "C_HI" I L 1450 1550 60 
 F13 "CURSENSE_C" O L 1450 2350 60 
+$EndSheet
+$Sheet
+S 4900 2950 1700 1700
+U 55B1D42D
+F0 "Microcontroller" 60
+F1 "uc.sch" 60
 $EndSheet
 $EndSCHEMATC
