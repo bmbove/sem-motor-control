@@ -216,23 +216,8 @@ Wire Wire Line
 	5050 3700 4900 3700
 Text GLabel 4900 3700 0    60   Input ~ 0
 5V
-$Comp
-L GND #PWR?
-U 1 1 55B2F6C7
-P 2600 3800
-F 0 "#PWR?" H 2600 3550 50  0001 C CNN
-F 1 "GND" H 2600 3650 50  0000 C CNN
-F 2 "" H 2600 3800 60  0000 C CNN
-F 3 "" H 2600 3800 60  0000 C CNN
-	1    2600 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 3700 2600 3800
-Text HLabel 2750 3150 2    60   Output ~ 0
+Text HLabel 2700 3250 2    60   Output ~ 0
 RTS_BUF
-Wire Wire Line
-	2300 3500 2150 3500
 Text HLabel 3900 3350 0    60   Output ~ 0
 RTS
 Text Label 3900 3500 2    60   ~ 0
@@ -246,28 +231,60 @@ Wire Wire Line
 Wire Wire Line
 	4050 3500 3900 3500
 Connection ~ 4050 3400
-Text Label 2150 3500 2    60   ~ 0
+Text Label 1650 3300 2    60   ~ 0
 RTS
-Text Notes 2850 4000 0    60   ~ 0
-Check pin\nconfig on\npart\n
-Text Notes 2500 2950 0    60   ~ 0
-FET needed to\nisolate TDO and \nRESET
-$Comp
-L Q_NMOS_DGS Q?
-U 1 1 55B34289
-P 2500 3500
-F 0 "Q?" H 2800 3550 50  0000 R CNN
-F 1 "NMOS" H 2900 3400 50  0000 R CNN
-F 2 "" H 2700 3600 29  0000 C CNN
-F 3 "" H 2500 3500 60  0000 C CNN
-	1    2500 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 3300 2600 3150
-Wire Wire Line
-	2600 3150 2750 3150
+Text Notes 800  3900 0    60   ~ 0
+Buffer needed to\nisolate TDO and \nRESET. Replace this\nwith something better.
 NoConn ~ 5050 3500
 NoConn ~ 6550 3750
 NoConn ~ 6550 3450
+$Comp
+L Q_NMOS_DGS Q?
+U 1 1 55B34DC2
+P 2450 3550
+F 0 "Q?" H 2750 3600 50  0000 R CNN
+F 1 "nmos" H 2800 3450 50  0000 R CNN
+F 2 "" H 2650 3650 29  0000 C CNN
+F 3 "" H 2450 3550 60  0000 C CNN
+	1    2450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_PMOS_DGS Q?
+U 1 1 55B34E32
+P 1950 3300
+F 0 "Q?" H 2250 3350 50  0000 R CNN
+F 1 "pmos" H 2350 3200 50  0000 R CNN
+F 2 "" H 2150 3400 29  0000 C CNN
+F 3 "" H 1950 3300 60  0000 C CNN
+	1    1950 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3100 2050 3000
+Wire Wire Line
+	1750 3300 1650 3300
+Wire Wire Line
+	2550 3750 2550 3800
+$Comp
+L GND #PWR?
+U 1 1 55B35261
+P 2550 3800
+F 0 "#PWR?" H 2550 3550 50  0001 C CNN
+F 1 "GND" H 2550 3650 50  0000 C CNN
+F 2 "" H 2550 3800 60  0000 C CNN
+F 3 "" H 2550 3800 60  0000 C CNN
+	1    2550 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 3000 1    60   Input ~ 0
+3V3
+Wire Wire Line
+	2050 3550 2250 3550
+Wire Wire Line
+	2700 3250 2550 3250
+Wire Wire Line
+	2550 3250 2550 3350
+Wire Wire Line
+	2050 3550 2050 3500
 $EndSCHEMATC
