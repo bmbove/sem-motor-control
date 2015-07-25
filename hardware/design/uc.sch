@@ -463,71 +463,14 @@ Wire Wire Line
 	9350 4500 9350 4400
 Text Notes 1850 5850 0    60   ~ 0
 Close as possible\nto pins to reduce\nparasitic capacitance
-$Comp
-L SPST SW?
-U 1 1 55B40C4B
-P 1850 4000
-F 0 "SW?" H 1850 4100 50  0000 C CNN
-F 1 "BOOT_MODE" H 1850 3900 50  0000 C CNN
-F 2 "" H 1850 4000 60  0000 C CNN
-F 3 "" H 1850 4000 60  0000 C CNN
-	1    1850 4000
-	1    0    0    -1  
-$EndComp
 Text GLabel 5400 2000 1    60   Input ~ 0
 3V3
 Wire Wire Line
 	5400 2150 5400 2000
-$Comp
-L R R?
-U 1 1 55B42936
-P 1200 4200
-F 0 "R?" V 1280 4200 50  0000 C CNN
-F 1 "10k" V 1200 4200 50  0000 C CNN
-F 2 "" V 1130 4200 30  0000 C CNN
-F 3 "" H 1200 4200 30  0000 C CNN
-	1    1200 4200
-	1    0    0    -1  
-$EndComp
 Text Notes 1850 1150 0    60   ~ 0
 JTAG header probably\nwon't be populated
-$Comp
-L GND #PWR?
-U 1 1 55B4413E
-P 1200 4400
-F 0 "#PWR?" H 1200 4150 50  0001 C CNN
-F 1 "GND" H 1200 4250 50  0000 C CNN
-F 2 "" H 1200 4400 60  0000 C CNN
-F 3 "" H 1200 4400 60  0000 C CNN
-	1    1200 4400
-	1    0    0    -1  
-$EndComp
-Text GLabel 2500 3800 1    60   Input ~ 0
-3V3
-Wire Wire Line
-	2350 4000 2500 4000
-Wire Wire Line
-	2500 4000 2500 3800
-Wire Wire Line
-	1050 4000 1350 4000
-Wire Wire Line
-	1200 3750 1200 4050
-Wire Wire Line
-	1200 4350 1200 4400
-Connection ~ 1200 4000
-Text Label 1050 4000 2    60   ~ 0
-TDO
-Text Notes 1600 4700 0    60   ~ 0
-Pull high to boot\nfrom flash, low for\nserial boot. Might\nnot be necessary\nif FTDI chip used.
 Text Label 4100 3150 2    60   ~ 0
 TDO
-Text HLabel 1200 3750 1    60   Input ~ 0
-TDO
-Wire Wire Line
-	9050 4900 9050 4500
-Connection ~ 9050 4900
-Text HLabel 9050 4500 1    60   Input ~ 0
-RESET
 Wire Wire Line
 	7700 4350 7900 4350
 Text HLabel 7900 4350 2    60   Input ~ 0
@@ -536,4 +479,16 @@ Wire Wire Line
 	7700 3850 7900 3850
 Text HLabel 7900 3850 2    60   Output ~ 0
 TX
+Text Label 1250 3050 2    60   ~ 0
+TDO
+Text HLabel 1550 3050 2    60   Input ~ 0
+TDO
+Wire Wire Line
+	1250 3050 1550 3050
+Text Label 1250 3200 2    60   ~ 0
+RESET
+Text HLabel 1550 3200 2    60   Input ~ 0
+RESET
+Wire Wire Line
+	1550 3200 1250 3200
 $EndSCHEMATC

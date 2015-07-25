@@ -216,4 +216,58 @@ Wire Wire Line
 	5050 3700 4900 3700
 Text GLabel 4900 3700 0    60   Input ~ 0
 5V
+$Comp
+L GND #PWR?
+U 1 1 55B2F6C7
+P 2600 3800
+F 0 "#PWR?" H 2600 3550 50  0001 C CNN
+F 1 "GND" H 2600 3650 50  0000 C CNN
+F 2 "" H 2600 3800 60  0000 C CNN
+F 3 "" H 2600 3800 60  0000 C CNN
+	1    2600 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3700 2600 3800
+Text HLabel 2750 3150 2    60   Output ~ 0
+RTS_BUF
+Wire Wire Line
+	2300 3500 2150 3500
+Text HLabel 3900 3350 0    60   Output ~ 0
+RTS
+Text Label 3900 3500 2    60   ~ 0
+RTS
+Wire Wire Line
+	4050 3400 5050 3400
+Wire Wire Line
+	4050 3350 4050 3500
+Wire Wire Line
+	4050 3350 3900 3350
+Wire Wire Line
+	4050 3500 3900 3500
+Connection ~ 4050 3400
+Text Label 2150 3500 2    60   ~ 0
+RTS
+Text Notes 2850 4000 0    60   ~ 0
+Check pin\nconfig on\npart\n
+Text Notes 2500 2950 0    60   ~ 0
+FET needed to\nisolate TDO and \nRESET
+$Comp
+L Q_NMOS_DGS Q?
+U 1 1 55B34289
+P 2500 3500
+F 0 "Q?" H 2800 3550 50  0000 R CNN
+F 1 "NMOS" H 2900 3400 50  0000 R CNN
+F 2 "" H 2700 3600 29  0000 C CNN
+F 3 "" H 2500 3500 60  0000 C CNN
+	1    2500 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3300 2600 3150
+Wire Wire Line
+	2600 3150 2750 3150
+NoConn ~ 5050 3500
+NoConn ~ 6550 3750
+NoConn ~ 6550 3450
 $EndSCHEMATC
