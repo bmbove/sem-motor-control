@@ -1,4 +1,6 @@
 EESchema Schematic File Version 2
+LIBS:base
+LIBS:NC7WZ07
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,12 +30,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:FT230XS
+LIBS:TMS320F28069MPNT
+LIBS:drv8303
 LIBS:asme-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -491,4 +496,68 @@ Text HLabel 1550 3200 2    60   Input ~ 0
 RESET
 Wire Wire Line
 	1550 3200 1250 3200
+Wire Wire Line
+	5300 5550 5300 5700
+Wire Wire Line
+	5400 5550 5400 5700
+Text HLabel 5300 5700 3    60   Input ~ 0
+ADCIN1
+Text HLabel 5400 5700 3    60   Input ~ 0
+ADCIN2
+Wire Wire Line
+	6700 5550 6700 5700
+Text HLabel 6700 5700 3    60   BiDi ~ 0
+MISO
+Wire Wire Line
+	7700 4550 7900 4550
+Text HLabel 7900 4550 2    60   BiDi ~ 0
+MOSI
+Wire Wire Line
+	7700 3250 7950 3250
+Text HLabel 7950 3250 2    60   BiDi ~ 0
+SPI_CLK
+Wire Wire Line
+	7700 3150 7950 3150
+Text HLabel 7950 3150 2    60   BiDi ~ 0
+SPI_CS
+Text HLabel 6400 5700 3    60   Output ~ 0
+PWM1
+Wire Wire Line
+	6400 5550 6400 5700
+Text HLabel 6600 5700 3    60   Output ~ 0
+PWM2
+Text HLabel 7900 4650 2    60   Output ~ 0
+PWM3
+Text HLabel 7900 4450 2    60   Output ~ 0
+PWM4
+Text HLabel 7900 4250 2    60   Output ~ 0
+PWM5
+Text HLabel 7900 4050 2    60   Output ~ 0
+PWM6
+Wire Wire Line
+	7900 4050 7700 4050
+Wire Wire Line
+	7900 4250 7700 4250
+Wire Wire Line
+	7900 4450 7700 4450
+Wire Wire Line
+	7900 4650 7700 4650
+Wire Wire Line
+	6600 5550 6600 5700
+Text HLabel 6700 2000 1    60   Output ~ 0
+GPIO21
+Text HLabel 6800 2000 1    60   Output ~ 0
+GPIO20
+Text HLabel 5800 2000 1    60   Input ~ 0
+GPIO30
+Text HLabel 5700 2000 1    60   Input ~ 0
+GPIO31
+Wire Wire Line
+	6800 2000 6800 2150
+Wire Wire Line
+	6700 2000 6700 2150
+Wire Wire Line
+	5800 2000 5800 2150
+Wire Wire Line
+	5700 2000 5700 2150
 $EndSCHEMATC

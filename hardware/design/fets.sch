@@ -1,4 +1,6 @@
 EESchema Schematic File Version 2
+LIBS:base
+LIBS:NC7WZ07
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,12 +30,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:FT230XS
+LIBS:TMS320F28069MPNT
+LIBS:drv8303
 LIBS:asme-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title "SEM - MOSFET Array"
 Date ""
 Rev ""
@@ -121,24 +126,16 @@ F 3 "" H 3150 3600 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3150 2550 3150 2700
+	3150 2550 3150 2900
 Wire Wire Line
-	3150 2700 3150 2900
-Wire Wire Line
-	3150 3300 3150 3350
-Wire Wire Line
-	3150 3350 3150 3450
+	3150 3300 3150 3450
 Wire Wire Line
 	2750 3450 2750 3100
 Wire Wire Line
-	2650 3100 2750 3100
-Wire Wire Line
-	2750 3100 2850 3100
+	2650 3100 2850 3100
 Connection ~ 2750 3100
 Wire Wire Line
-	2650 2350 2750 2350
-Wire Wire Line
-	2750 2350 2850 2350
+	2650 2350 2850 2350
 Wire Wire Line
 	2750 2450 2750 2350
 Connection ~ 2750 2350
@@ -281,24 +278,16 @@ F 3 "" H 5550 3600 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5550 2550 5550 2700
+	5550 2550 5550 2900
 Wire Wire Line
-	5550 2700 5550 2900
-Wire Wire Line
-	5550 3300 5550 3350
-Wire Wire Line
-	5550 3350 5550 3450
+	5550 3300 5550 3450
 Wire Wire Line
 	5150 3450 5150 3100
 Wire Wire Line
-	5050 3100 5150 3100
-Wire Wire Line
-	5150 3100 5250 3100
+	5050 3100 5250 3100
 Connection ~ 5150 3100
 Wire Wire Line
-	5050 2350 5150 2350
-Wire Wire Line
-	5150 2350 5250 2350
+	5050 2350 5250 2350
 Wire Wire Line
 	5150 2450 5150 2350
 Connection ~ 5150 2350
@@ -441,24 +430,16 @@ F 3 "" H 8050 3600 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8050 2550 8050 2700
+	8050 2550 8050 2900
 Wire Wire Line
-	8050 2700 8050 2900
-Wire Wire Line
-	8050 3300 8050 3350
-Wire Wire Line
-	8050 3350 8050 3450
+	8050 3300 8050 3450
 Wire Wire Line
 	7650 3450 7650 3100
 Wire Wire Line
-	7550 3100 7650 3100
-Wire Wire Line
-	7650 3100 7750 3100
+	7550 3100 7750 3100
 Connection ~ 7650 3100
 Wire Wire Line
-	7550 2350 7650 2350
-Wire Wire Line
-	7650 2350 7750 2350
+	7550 2350 7750 2350
 Wire Wire Line
 	7650 2450 7650 2350
 Connection ~ 7650 2350

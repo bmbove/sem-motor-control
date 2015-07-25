@@ -1,4 +1,6 @@
 EESchema Schematic File Version 2
+LIBS:base
+LIBS:NC7WZ07
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,12 +30,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:FT230XS
+LIBS:TMS320F28069MPNT
+LIBS:drv8303
 LIBS:asme-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -100,28 +105,6 @@ F 1 "R" V 7250 3250 50  0000 C CNN
 F 2 "" V 7180 3250 30  0000 C CNN
 F 3 "" H 7250 3250 30  0000 C CNN
 	1    7250 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 55B31F31
-P 5750 6450
-F 0 "#PWR?" H 5750 6200 50  0001 C CNN
-F 1 "GND" H 5750 6300 50  0000 C CNN
-F 2 "" H 5750 6450 60  0000 C CNN
-F 3 "" H 5750 6450 60  0000 C CNN
-	1    5750 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 55B31F4D
-P 5950 6450
-F 0 "#PWR?" H 5950 6200 50  0001 C CNN
-F 1 "GND" H 5950 6300 50  0000 C CNN
-F 2 "" H 5950 6450 60  0000 C CNN
-F 3 "" H 5950 6450 60  0000 C CNN
-	1    5950 6450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -225,10 +208,6 @@ F 3 "" H 9600 4050 60  0000 C CNN
 $EndComp
 Text GLabel 9600 3050 1    60   Input ~ 0
 5V
-Wire Wire Line
-	5100 5500 5750 5500
-Wire Wire Line
-	5100 5400 5950 5400
 Wire Wire Line
 	7250 3000 7250 3100
 Wire Wire Line
