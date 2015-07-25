@@ -1,0 +1,219 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:asme-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FT230XS U?
+U 1 1 55B31983
+P 5800 3400
+F 0 "U?" H 5700 3350 60  0000 C CNN
+F 1 "FT230XS" H 6150 3850 60  0000 C CNN
+F 2 "" H 5550 3150 60  0000 C CNN
+F 3 "" H 5550 3150 60  0000 C CNN
+	1    5800 3400
+	1    0    0    -1  
+$EndComp
+Text HLabel 4900 3100 0    60   Output ~ 0
+TX
+Text HLabel 4900 3200 0    60   Input ~ 0
+RX
+Wire Wire Line
+	6550 3650 7200 3650
+Wire Wire Line
+	7200 3650 7200 3950
+Wire Wire Line
+	6550 3550 7400 3550
+Wire Wire Line
+	7400 3550 7400 3950
+$Comp
+L Led_Small D?
+U 1 1 55B31DA2
+P 7200 4050
+F 0 "D?" H 7150 4175 50  0000 L CNN
+F 1 "TX_LED" H 7050 4250 50  0000 L CNN
+F 2 "" V 7200 4050 60  0000 C CNN
+F 3 "" V 7200 4050 60  0000 C CNN
+	1    7200 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Led_Small D?
+U 1 1 55B31E09
+P 7400 4050
+F 0 "D?" H 7350 3850 50  0000 L CNN
+F 1 "RX_LED" H 7250 3950 50  0000 L CNN
+F 2 "" V 7400 4050 60  0000 C CNN
+F 3 "" V 7400 4050 60  0000 C CNN
+	1    7400 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 55B31EB5
+P 7200 4400
+F 0 "R?" V 7280 4400 50  0000 C CNN
+F 1 "R" V 7200 4400 50  0000 C CNN
+F 2 "" V 7130 4400 30  0000 C CNN
+F 3 "" H 7200 4400 30  0000 C CNN
+	1    7200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 55B31EE6
+P 7400 4400
+F 0 "R?" V 7480 4400 50  0000 C CNN
+F 1 "R" V 7400 4400 50  0000 C CNN
+F 2 "" V 7330 4400 30  0000 C CNN
+F 3 "" H 7400 4400 30  0000 C CNN
+	1    7400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55B31F31
+P 7200 4600
+F 0 "#PWR?" H 7200 4350 50  0001 C CNN
+F 1 "GND" H 7200 4450 50  0000 C CNN
+F 2 "" H 7200 4600 60  0000 C CNN
+F 3 "" H 7200 4600 60  0000 C CNN
+	1    7200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55B31F4D
+P 7400 4600
+F 0 "#PWR?" H 7400 4350 50  0001 C CNN
+F 1 "GND" H 7400 4450 50  0000 C CNN
+F 2 "" H 7400 4600 60  0000 C CNN
+F 3 "" H 7400 4600 60  0000 C CNN
+	1    7400 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4150 7400 4250
+Wire Wire Line
+	7400 4550 7400 4600
+Wire Wire Line
+	7200 4150 7200 4250
+Wire Wire Line
+	7200 4550 7200 4600
+$Comp
+L USB_A P?
+U 1 1 55B31FCD
+P 7200 2500
+F 0 "P?" H 7400 2300 50  0000 C CNN
+F 1 "USB_A" H 7150 2700 50  0000 C CNN
+F 2 "" V 7150 2400 60  0000 C CNN
+F 3 "" V 7150 2400 60  0000 C CNN
+	1    7200 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3100 7100 3100
+Wire Wire Line
+	7100 3100 7100 2800
+Wire Wire Line
+	6550 3200 7200 3200
+Wire Wire Line
+	7200 3200 7200 2800
+Wire Wire Line
+	7300 2800 7300 3200
+$Comp
+L GND #PWR?
+U 1 1 55B320F3
+P 7300 3200
+F 0 "#PWR?" H 7300 2950 50  0001 C CNN
+F 1 "GND" H 7300 3050 50  0000 C CNN
+F 2 "" H 7300 3200 60  0000 C CNN
+F 3 "" H 7300 3200 60  0000 C CNN
+	1    7300 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2400 7500 2850
+Wire Wire Line
+	7500 2850 7300 2850
+Connection ~ 7300 2850
+Wire Wire Line
+	7000 2800 7000 2850
+Wire Wire Line
+	7000 2850 6800 2850
+Wire Wire Line
+	6800 2850 6800 2350
+Text GLabel 6800 2350 1    60   Input ~ 0
+5V
+Text GLabel 5750 2650 1    60   Input ~ 0
+5V
+Text GLabel 5600 2650 1    60   Input ~ 0
+3V3
+$Comp
+L GND #PWR?
+U 1 1 55B323B7
+P 5700 4050
+F 0 "#PWR?" H 5700 3800 50  0001 C CNN
+F 1 "GND" H 5700 3900 50  0000 C CNN
+F 2 "" H 5700 4050 60  0000 C CNN
+F 3 "" H 5700 4050 60  0000 C CNN
+	1    5700 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4000 5700 4050
+Wire Wire Line
+	5050 3100 4900 3100
+Wire Wire Line
+	5050 3200 4900 3200
+Wire Wire Line
+	5600 2800 5600 2650
+Wire Wire Line
+	5750 2800 5750 2650
+Connection ~ 5600 2700
+NoConn ~ 5900 2800
+Wire Wire Line
+	5050 3700 4900 3700
+Text GLabel 4900 3700 0    60   Input ~ 0
+5V
+$EndSCHEMATC

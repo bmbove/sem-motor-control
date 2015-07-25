@@ -28,11 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:asme-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -65,5 +66,21 @@ S 4900 2950 1700 1700
 U 55B1D42D
 F0 "Microcontroller" 60
 F1 "uc.sch" 60
+F2 "TDO" I R 6600 3050 60 
+F3 "RESET" I R 6600 3150 60 
+F4 "RX" I R 6600 3400 60 
+F5 "TX" O R 6600 3300 60 
 $EndSheet
+$Sheet
+S 7900 3100 800  950 
+U 55B3194A
+F0 "FTDI USB to Serial" 60
+F1 "ftdi.sch" 60
+F2 "TX" O L 7900 3400 60 
+F3 "RX" I L 7900 3300 60 
+$EndSheet
+Wire Wire Line
+	7900 3400 6600 3400
+Wire Wire Line
+	6600 3300 7900 3300
 $EndSCHEMATC
