@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ADG904BCPZ
 LIBS:base
 LIBS:NC7WZ07
 LIBS:power
@@ -38,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title "SEM - MOSFET Array"
 Date ""
 Rev ""

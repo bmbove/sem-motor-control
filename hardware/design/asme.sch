@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ADG904BCPZ
 LIBS:base
 LIBS:NC7WZ07
 LIBS:power
@@ -38,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -236,4 +237,10 @@ Wire Wire Line
 	5250 3000 6050 3000
 Wire Wire Line
 	6050 3100 5250 3100
+$Sheet
+S 4200 5050 1100 1400
+U 55B6817C
+F0 "Current Sense" 60
+F1 "currentamp.sch" 60
+$EndSheet
 $EndSCHEMATC
