@@ -1,4 +1,4 @@
-update=Mon 27 Jul 2015 11:19:55 AM PDT
+update=Mon 27 Jul 2015 11:03:42 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -74,3 +74,4 @@ LibName32=valves
 LibName33=library/FT230XS
 LibName34=library/TMS320F28069MPNT
 LibName35=library/drv8303
+LibName36=library/AD8227ARZ
