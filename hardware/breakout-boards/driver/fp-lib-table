@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name drv8303)(type Legacy)(uri "$(KIPRJMOD)/modules/drv8303.mod")(options "")(descr ""))
+)
