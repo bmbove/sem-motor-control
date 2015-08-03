@@ -1,4 +1,6 @@
 EESchema Schematic File Version 2
+LIBS:MSCP1726XXSN
+LIBS:dual-pmos
 LIBS:ADG904BCPZ
 LIBS:base
 LIBS:NC7WZ07
