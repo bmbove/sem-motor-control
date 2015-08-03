@@ -207,7 +207,6 @@ Wire Wire Line
 	3850 3650 3850 5650
 Wire Wire Line
 	3850 5650 3400 5650
-Connection ~ 3850 3650
 Wire Wire Line
 	6050 2200 5250 2200
 Wire Wire Line
@@ -256,18 +255,9 @@ $EndSheet
 Wire Wire Line
 	4200 5200 4100 5200
 Wire Wire Line
-	4100 5200 4100 3450
-Connection ~ 4100 3450
-Wire Wire Line
 	4200 5300 4050 5300
 Wire Wire Line
-	4050 5300 4050 3550
-Connection ~ 4050 3550
-Wire Wire Line
 	4200 5400 4000 5400
-Wire Wire Line
-	4000 5400 4000 3650
-Connection ~ 4000 3650
 $Comp
 L R R?
 U 1 1 55BFF60B
@@ -309,4 +299,20 @@ Text GLabel 7950 3950 1    60   Input ~ 0
 3V3
 Wire Wire Line
 	7950 3950 7950 4050
+Connection ~ 3850 3650
+Wire Wire Line
+	4100 5200 4100 3100
+Connection ~ 4100 3100
+Wire Wire Line
+	4050 5300 4050 3200
+Connection ~ 4050 3200
+Wire Wire Line
+	4000 5400 4000 3300
+Connection ~ 4000 3300
+$Sheet
+S 4200 5950 850  500 
+U 55C09653
+F0 "Back EMF Sense" 60
+F1 "backemf.sch" 60
+$EndSheet
 $EndSCHEMATC
