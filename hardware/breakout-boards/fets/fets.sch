@@ -30,7 +30,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:fets-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1032,4 +1031,16 @@ Wire Wire Line
 Connection ~ 7700 3900
 Wire Wire Line
 	7700 4950 7700 5000
+Text Label 2450 2850 0    60   ~ 0
+A_LO_G
+Text Label 2450 2000 0    60   ~ 0
+A_HI_G
+Text Label 7400 2000 0    60   ~ 0
+B_HI_G
+Text Label 7400 2850 0    60   ~ 0
+B_LO_G
+Text Label 12150 2000 0    60   ~ 0
+C_HI_G
+Text Label 12150 2850 0    60   ~ 0
+C_LO_G
 $EndSCHEMATC

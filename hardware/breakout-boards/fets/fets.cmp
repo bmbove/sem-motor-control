@@ -1,0 +1,262 @@
+Cmp-Mod V01 Created by Cvpcb (2015-05-26 BZR 5684)-product   date = Thu 13 Aug 2015 12:07:58 PM PDT
+
+BeginCmp
+TimeStamp = /55CBAB79;
+Reference = C1;
+ValeurCmp = 2.2u;
+IdModule  = Capacitors_SMD:C_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBB196;
+Reference = C2;
+ValeurCmp = .1u;
+IdModule  = Capacitors_SMD:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBCACC;
+Reference = C3;
+ValeurCmp = 2.2u;
+IdModule  = Capacitors_SMD:C_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBCAF4;
+Reference = C4;
+ValeurCmp = .1u;
+IdModule  = Capacitors_SMD:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBD15E;
+Reference = C5;
+ValeurCmp = 2.2u;
+IdModule  = Capacitors_SMD:C_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBD186;
+Reference = C6;
+ValeurCmp = .1u;
+IdModule  = Capacitors_SMD:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBFE69;
+Reference = P1;
+ValeurCmp = CONN_01X06;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CC00FA;
+Reference = P2;
+ValeurCmp = CONN_01X06;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBF6A3;
+Reference = P3;
+ValeurCmp = CONN_01X03;
+IdModule  = fet-libs:OSTT7030150;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBFA16;
+Reference = P4;
+ValeurCmp = CONN_01X02;
+IdModule  = fet-libs:OSTT7020150;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBA294;
+Reference = Q1;
+ValeurCmp = IRF7530;
+IdModule  = fet-libs:D2PAK-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBA403;
+Reference = Q2;
+ValeurCmp = IRF7530;
+IdModule  = fet-libs:D2PAK-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBCA6D;
+Reference = Q3;
+ValeurCmp = IRF7530;
+IdModule  = fet-libs:D2PAK-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBCA7C;
+Reference = Q4;
+ValeurCmp = IRF7530;
+IdModule  = fet-libs:D2PAK-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBD0FF;
+Reference = Q5;
+ValeurCmp = IRF7530;
+IdModule  = fet-libs:D2PAK-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBD10E;
+Reference = Q6;
+ValeurCmp = IRF7530;
+IdModule  = fet-libs:D2PAK-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBA955;
+Reference = R1;
+ValeurCmp = 10;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBA8FD;
+Reference = R2;
+ValeurCmp = 10;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBA74A;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBA80C;
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBA60E;
+Reference = R5;
+ValeurCmp = WSL3921;
+IdModule  = fet-libs:WSL3921;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBB128;
+Reference = R6;
+ValeurCmp = 95.3k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBB151;
+Reference = R7;
+ValeurCmp = 4.99k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBCAC2;
+Reference = R8;
+ValeurCmp = 10;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBCABC;
+Reference = R9;
+ValeurCmp = 10;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBCA9E;
+Reference = R10;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBCAA4;
+Reference = R11;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBCA8C;
+Reference = R12;
+ValeurCmp = WSL3921;
+IdModule  = fet-libs:WSL3921;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBCAE6;
+Reference = R13;
+ValeurCmp = 95.3k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBCAEE;
+Reference = R14;
+ValeurCmp = 4.99k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBD154;
+Reference = R15;
+ValeurCmp = 10;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBD14E;
+Reference = R16;
+ValeurCmp = 10;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBD130;
+Reference = R17;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBD136;
+Reference = R18;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBD11E;
+Reference = R19;
+ValeurCmp = WSL3921;
+IdModule  = fet-libs:WSL3921;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBD178;
+Reference = R20;
+ValeurCmp = 95.3k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CBD180;
+Reference = R21;
+ValeurCmp = 4.99k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+EndListe
