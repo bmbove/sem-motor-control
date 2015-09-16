@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/brian/projects/shell/sem-motor-control/hardware/breakout-boards/driver_rev1/driver-breakout.sch</source>
+    <date>Wed 09 Sep 2015 03:14:00 AM PDT</date>
+    <tool>Eeschema (2015-07-25 BZR 5993)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>driver-breakout.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/DriverIC/" tstamps="/55E2B7BC/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>driveric.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P5">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E37BB6</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E37CD5</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E37DD0</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E37F04</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X06</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E38257</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E3836B</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08</footprint>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E38775</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_2_V</value>
+      <footprint>Connect:bornier2</footprint>
+      <libsource lib="borniers" part="CONN_2_V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E40293</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>DRV8303_DCA_48</value>
+      <footprint>DRV8303:DCA48_4P42X3P48</footprint>
+      <libsource lib="drv8303" part="DRV8303_DCA_48"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2B81F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>22n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2B9B3</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2BA63</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>2.2u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2BADA</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2BB01</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2BB29</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2C0C1</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2C151</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>YELLOW</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2C77F</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>RED</value>
+      <footprint>SMD_Packages:SMD-1206_Pol</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2C7E5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2C873</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2C8C6</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2CCF6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2CD65</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2CF40</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>.1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2F061</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>.1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2F10F</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>.1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E2F168</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_PMOS_GSD</value>
+      <footprint>SparkFun:SparkFun-SOT23-3</footprint>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E38323</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_PMOS_GSD</value>
+      <footprint>SparkFun:SparkFun-SOT23-3</footprint>
+      <libsource lib="device" part="Q_PMOS_GSD"/>
+      <sheetpath names="/DriverIC/" tstamps="/55E2B7BC/"/>
+      <tstamp>55E385BC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="drv8303" part="DRV8303_DCA_48">
+      <footprints>
+        <fp>*DCA48_4P42X3P48*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV8303_DCA_48</field>
+        <field name="Footprint">drv8303_DCA48_4P42X3P48</field>
+      </fields>
+      <pins>
+        <pin num="1" name="*OCTW" type="output"/>
+        <pin num="2" name="*FAULT" type="output"/>
+        <pin num="3" name="DTC" type="input"/>
+        <pin num="4" name="*SCS" type="input"/>
+        <pin num="5" name="SDI" type="input"/>
+        <pin num="6" name="SDO" type="output"/>
+        <pin num="7" name="SCLK" type="input"/>
+        <pin num="8" name="DC_CAL" type="input"/>
+        <pin num="9" name="GVDD" type="power_in"/>
+        <pin num="10" name="CP1" type="power_in"/>
+        <pin num="11" name="CP2" type="power_in"/>
+        <pin num="12" name="EN_GATE" type="input"/>
+        <pin num="13" name="INH_A" type="input"/>
+        <pin num="14" name="INL_A" type="input"/>
+        <pin num="15" name="INH_B" type="input"/>
+        <pin num="16" name="INL_B" type="input"/>
+        <pin num="17" name="INH_C" type="input"/>
+        <pin num="18" name="INL_C" type="input"/>
+        <pin num="19" name="DVDD" type="power_in"/>
+        <pin num="20" name="REF" type="input"/>
+        <pin num="21" name="SO1" type="output"/>
+        <pin num="22" name="SO2" type="output"/>
+        <pin num="23" name="AVDD" type="power_in"/>
+        <pin num="24" name="AGND" type="power_in"/>
+        <pin num="25" name="PVDD" type="power_in"/>
+        <pin num="26" name="SP2" type="input"/>
+        <pin num="27" name="SN2" type="input"/>
+        <pin num="28" name="SP1" type="input"/>
+        <pin num="29" name="SN1" type="input"/>
+        <pin num="30" name="SL_C" type="input"/>
+        <pin num="31" name="GL_C" type="output"/>
+        <pin num="32" name="SH_C" type="input"/>
+        <pin num="33" name="GH_C" type="output"/>
+        <pin num="34" name="BST_C" type="power_in"/>
+        <pin num="35" name="SL_B" type="input"/>
+        <pin num="36" name="GL_B" type="output"/>
+        <pin num="37" name="SH_B" type="input"/>
+        <pin num="38" name="GH_B" type="output"/>
+        <pin num="39" name="BST_B" type="power_in"/>
+        <pin num="40" name="SL_A" type="input"/>
+        <pin num="41" name="GL_A" type="output"/>
+        <pin num="42" name="SH_A" type="input"/>
+        <pin num="43" name="GH_A" type="output"/>
+        <pin num="44" name="BST_A" type="power_in"/>
+        <pin num="45" name="VDD_SPI" type="input"/>
+        <pin num="46" name="GND_3" type="output"/>
+        <pin num="47" name="GND" type="output"/>
+        <pin num="48" name="GND_2" type="output"/>
+        <pin num="49" name="EPAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="borniers" part="CONN_2_V">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2_V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PMOS_GSD">
+      <description>Transistor P-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Led_Small">
+      <description>Led</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X08">
+      <footprints>
+        <fp>Pin_Header_Straight_1X08</fp>
+        <fp>Pin_Header_Angled_1X08</fp>
+        <fp>Socket_Strip_Straight_1X08</fp>
+        <fp>Socket_Strip_Angled_1X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="drv8303">
+      <uri>/home/brian/projects/shell/sem-motor-control/hardware/breakout-boards/driver_rev1/library/drv8303.lib</uri>
+    </library>
+    <library logical="borniers">
+      <uri>/home/brian/projects/shell/sem-motor-control/hardware/breakout-boards/driver_rev1/library/borniers.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/DriverIC/INL_C">
+      <node ref="P3" pin="1"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="2" name="/DriverIC/EN_GATE">
+      <node ref="U1" pin="12"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="3" name="/DriverIC/INH_A">
+      <node ref="U1" pin="13"/>
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="4" name="/DriverIC/INL_A">
+      <node ref="P3" pin="5"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="5" name="/DriverIC/INH_B">
+      <node ref="P3" pin="4"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="6" name="/DriverIC/INL_B">
+      <node ref="P3" pin="3"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="7" name="/DriverIC/INH_C">
+      <node ref="U1" pin="17"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="8" name="/DriverIC/DC_CAL">
+      <node ref="U1" pin="8"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="9" name="/DriverIC/SO1">
+      <node ref="U1" pin="21"/>
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="10" name="/DriverIC/SO2">
+      <node ref="P4" pin="3"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="11" name="/DriverIC/SCLK">
+      <node ref="U1" pin="7"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="P4" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="24"/>
+      <node ref="U1" pin="46"/>
+      <node ref="U1" pin="47"/>
+      <node ref="U1" pin="48"/>
+      <node ref="U1" pin="49"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="13" name="/DriverIC/GL_C">
+      <node ref="U1" pin="31"/>
+      <node ref="P7" pin="3"/>
+    </net>
+    <net code="14" name="/DriverIC/SL_C">
+      <node ref="U1" pin="30"/>
+      <node ref="P7" pin="4"/>
+    </net>
+    <net code="15" name="/DriverIC/SP1">
+      <node ref="C8" pin="1"/>
+      <node ref="P8" pin="1"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="16" name="/DriverIC/SN1">
+      <node ref="U1" pin="29"/>
+      <node ref="C8" pin="2"/>
+      <node ref="P8" pin="2"/>
+    </net>
+    <net code="17" name="/DriverIC/SP2">
+      <node ref="P8" pin="3"/>
+      <node ref="U1" pin="26"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="18" name="/DriverIC/SN2">
+      <node ref="P8" pin="4"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="19" name="PVDD">
+      <node ref="C5" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="20" name="/DriverIC/SH_C">
+      <node ref="P7" pin="2"/>
+      <node ref="U1" pin="32"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="21" name="/DriverIC/GH_C">
+      <node ref="U1" pin="33"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="22" name="/DriverIC/SL_B">
+      <node ref="P6" pin="4"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="23" name="/DriverIC/GL_B">
+      <node ref="U1" pin="36"/>
+      <node ref="P6" pin="3"/>
+    </net>
+    <net code="24" name="/DriverIC/SH_B">
+      <node ref="U1" pin="37"/>
+      <node ref="C10" pin="1"/>
+      <node ref="P6" pin="2"/>
+    </net>
+    <net code="25" name="/DriverIC/GH_B">
+      <node ref="U1" pin="38"/>
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="26" name="/DriverIC/SL_A">
+      <node ref="U1" pin="40"/>
+      <node ref="P5" pin="4"/>
+    </net>
+    <net code="27" name="/DriverIC/GL_A">
+      <node ref="U1" pin="41"/>
+      <node ref="P5" pin="3"/>
+    </net>
+    <net code="28" name="/DriverIC/SH_A">
+      <node ref="P5" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="29" name="/DriverIC/GH_A">
+      <node ref="U1" pin="43"/>
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="30" name="VCC">
+      <node ref="U1" pin="20"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="U1" pin="45"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="31" name="/DriverIC/SDI">
+      <node ref="U1" pin="5"/>
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="32" name="/DriverIC/SDO">
+      <node ref="U1" pin="6"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="33" name="/DriverIC/SCS">
+      <node ref="U1" pin="4"/>
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="34" name="/DriverIC/FAULT">
+      <node ref="R4" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="P2" pin="7"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="35" name="/DriverIC/OCTW">
+      <node ref="P2" pin="8"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="36" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="37" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="38" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="39" name="Net-(R5-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="40" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2"/>
+      <node ref="U1" pin="44"/>
+    </net>
+    <net code="41" name="Net-(C10-Pad2)">
+      <node ref="U1" pin="39"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="42" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="43" name="Net-(C9-Pad2)">
+      <node ref="U1" pin="34"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="44" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="45" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="46" name="Net-(C3-Pad1)">
+      <node ref="U1" pin="19"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="47" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="9"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="48" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="23"/>
+      <node ref="C2" pin="1"/>
+    </net>
+  </nets>
+</export>

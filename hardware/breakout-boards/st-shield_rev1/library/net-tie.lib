@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# NET-TIE
+#
+DEF NET-TIE W 0 40 N Y 1 F N
+F0 "W" 11 -161 60 H V C CNN
+F1 "NET-TIE" -6 -78 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 0 10 0 1 0 N
+C 0 0 25 0 1 0 N
+C 0 1 6 0 1 0 N
+C 1 2 3 0 1 0 N
+X ~ 1 -75 0 79 R 50 50 1 1 P
+X ~ 2 75 0 79 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

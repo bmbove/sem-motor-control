@@ -492,4 +492,6 @@ Text GLabel 7700 1250 2    60   Input ~ 0
 Wire Wire Line
 	4450 1450 4650 1450
 Connection ~ 4450 1350
+Text Notes 6600 900  0    60   ~ 0
+Alternative:\nLD1117S33TR
 $EndSCHEMATC

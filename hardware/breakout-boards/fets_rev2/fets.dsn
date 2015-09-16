@@ -1,0 +1,392 @@
+(pcb "/home/brian/projects/shell/sem-motor-control/hardware/breakout-boards/fets/fets.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2015-05-26 BZR 5684)-product")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer In1.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  127000 -76200  127000 -127000  171450 -127000  171450 -76200
+            127000 -76200)
+    )
+    (plane 48V (polygon F.Cu 0  135128 -88900  139954 -88900  139954 -92964  143256 -92964
+            143256 -106172  139954 -106172  139954 -107696  143256 -107696
+            143256 -122428  151130 -122428  151130 -76200  135128 -76200))
+    (plane MOTOR_C (polygon F.Cu 0  159004 -107188  159004 -106680  168910 -106680  168910 -118618
+            154178 -118618  154178 -110490  159004 -110490))
+    (plane MOTOR_B (polygon F.Cu 0  159004 -105410  154178 -105410  154178 -97282  168910 -97282
+            168910 -105410  159004 -105410))
+    (plane MOTOR_A (polygon F.Cu 0  168910 -96266  159004 -96266  159004 -90424  154178 -90424
+            154178 -82550  168910 -82550))
+    (plane GND (polygon F.Cu 0  171450 -127000  152654 -127000  152146 -127000  130810 -127000
+            130810 -123190  130810 -122936  130810 -110998  127000 -110998
+            127000 -106680  130810 -106680  130810 -105410  130810 -105156
+            130810 -93980  130810 -93726  130810 -90932  127254 -90932  127254 -88646
+            127000 -88646  127000 -76200  134112 -76200  134112 -88392  134112 -88646
+            134112 -89408  139446 -89408  139446 -93726  142494 -93726  142494 -105410
+            139192 -105410  139192 -108712  142494 -108712  142494 -122936
+            152146 -122936  152146 -120650  159004 -120650  159004 -119634
+            171450 -119634  171450 -127000))
+    (plane MOTOR_C (polygon In1.Cu 0  168910 -118618  168910 -106680  162306 -106680  162306 -108458
+            159004 -108458  153670 -108458  153670 -110236  153670 -118618))
+    (plane MOTOR_B (polygon In1.Cu 0  153924 -97282  168910 -97282  168910 -105410  153924 -105410))
+    (plane MOTOR_A (polygon In1.Cu 0  153670 -82550  168910 -82550  168910 -96266  159004 -96266
+            159004 -92710  153670 -92710))
+    (plane A_CUR (polygon In1.Cu 0  150622 -90678  139192 -90678  139192 -82550  150622 -82550))
+    (plane B_CUR (polygon In1.Cu 0  150622 -105156  146812 -105156  146812 -104394  139192 -104394
+            139192 -96012  150622 -96012))
+    (plane C_CUR (polygon In1.Cu 0  139192 -111252  150622 -111252  150622 -118618  139192 -118618))
+    (plane GND (polygon In1.Cu 0  171450 -127000  150622 -127000  150368 -127000  138430 -127000
+            138176 -127000  130302 -127000  130302 -110998  127000 -110998
+            127000 -106680  130302 -106680  130302 -91440  127000 -91440
+            127000 -76200  171450 -76200  171450 -81788  138430 -81788  138430 -91186
+            138430 -91440  146050 -91440  146050 -92710  150876 -92710  150876 -95250
+            138430 -95250  138430 -104902  145796 -104902  145796 -107188
+            152654 -107188  152654 -110490  138430 -110490  138430 -119888
+            150368 -119888  150622 -119888  150622 -121412  162052 -121412
+            162052 -119380  171450 -119380  171450 -127000))
+    (keepout "" (polygon In1.Cu 0  134874 -82550  138430 -82550  138430 -86614  134874 -86614))
+    (keepout "" (polygon F.Cu 0  151130 -122428  143256 -122428  143256 -92964  139954 -92964
+            139954 -88900  135128 -88900  135128 -76200  151130 -76200))
+    (keepout "" (polygon F.Cu 0  168910 -118618  154178 -118618  154178 -110490  159004 -110490
+            159004 -106680  168910 -106680))
+    (keepout "" (polygon F.Cu 0  168910 -105410  154178 -105410  154178 -97282  168910 -97282))
+    (keepout "" (polygon F.Cu 0  154178 -82550  168910 -82550  168910 -96266  159004 -96266
+            159004 -90424  154178 -90424))
+    (keepout "" (polygon In1.Cu 0  168910 -118618  153670 -118618  153670 -108458  162306 -108458
+            162306 -106680  168910 -106680))
+    (keepout "" (polygon In1.Cu 0  153924 -97282  168910 -97282  168910 -105410  153924 -105410))
+    (keepout "" (polygon In1.Cu 0  168910 -96266  159004 -96266  159004 -92710  153670 -92710
+            153670 -82550  168910 -82550))
+    (keepout "" (polygon In1.Cu 0  150622 -118618  139192 -118618  139192 -111252  150622 -111252))
+    (keepout "" (polygon In1.Cu 0  139192 -96012  150622 -96012  150622 -105156  146812 -105156
+            146812 -104394  139192 -104394))
+    (keepout "" (polygon In1.Cu 0  150622 -90678  139192 -90678  139192 -82550  150622 -82550))
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Capacitors_SMD:C_1210
+      (place C1 141478 -108458 front 270 (PN 2.2u))
+      (place C3 147066 -123190 front 270 (PN 2.2u))
+      (place C5 141478 -93726 front 270 (PN 2.2u))
+    )
+    (component Capacitors_SMD:C_1206
+      (place C2 140462 -113792 front 90 (PN .1u))
+      (place C4 140462 -118618 front 90 (PN .1u))
+      (place C6 140462 -123444 front 90 (PN .1u))
+    )
+    (component Pin_Headers:Pin_Header_Straight_1x06
+      (place P1 129032 -92710 front 0 (PN CONN_01X06))
+      (place P2 129032 -112268 front 0 (PN CONN_01X06))
+    )
+    (component "fet-libs:OSTT7030150"
+      (place P3 171450 -111760 front 90 (PN CONN_01X03))
+    )
+    (component "fet-libs:OSTT7020150"
+      (place P4 140462 -76200 front 180 (PN CONN_01X02))
+    )
+    (component "fet-libs:D2PAK-7"
+      (place Q1 156718 -87630 front 90 (PN IRF7530))
+      (place Q2 148082 -87630 back 270 (PN IRF7530))
+      (place Q3 156718 -102362 front 90 (PN IRF7530))
+      (place Q4 148082 -102362 back 270 (PN IRF7530))
+      (place Q5 156718 -115570 front 90 (PN IRF7530))
+      (place Q6 148082 -115570 back 270 (PN IRF7530))
+    )
+    (component Resistors_SMD:R_0603
+      (place R1 132588 -92710 front 180 (PN 10))
+      (place R2 132588 -95250 front 180 (PN 10))
+      (place R3 136652 -91694 front 270 (PN 10K))
+      (place R4 136652 -94742 front 270 (PN 10K))
+      (place R6 170434 -113538 front 90 (PN 95.3k))
+      (place R7 138176 -114554 front 90 (PN 4.99k))
+      (place R8 132588 -97790 front 180 (PN 10))
+      (place R9 132588 -100330 front 180 (PN 10))
+      (place R10 136652 -97790 front 270 (PN 10K))
+      (place R11 136652 -100838 front 270 (PN 10K))
+      (place R13 170434 -116332 back 270 (PN 95.3k))
+      (place R14 138176 -119380 front 90 (PN 4.99k))
+      (place R15 132588 -102870 front 180 (PN 10))
+      (place R16 132588 -105410 front 180 (PN 10))
+      (place R17 136652 -103886 front 270 (PN 10K))
+      (place R18 136652 -106934 front 270 (PN 10K))
+      (place R20 154686 -124968 front 0 (PN 95.3k))
+      (place R21 138176 -124206 front 90 (PN 4.99k))
+    )
+    (component "fet-libs:WSL3921"
+      (place R5 145034 -83566 back 90 (PN WSL3921))
+      (place R12 145034 -97028 back 90 (PN WSL3921))
+      (place R19 145034 -112268 back 90 (PN WSL3921))
+    )
+  )
+  (library
+    (image Capacitors_SMD:C_1210
+      (outline (path signal 50  -2300 1600  2300 1600))
+      (outline (path signal 50  -2300 -1600  2300 -1600))
+      (outline (path signal 50  -2300 1600  -2300 -1600))
+      (outline (path signal 50  2300 1600  2300 -1600))
+      (outline (path signal 150  1000 1475  -1000 1475))
+      (outline (path signal 150  -1000 -1475  1000 -1475))
+      (pin Rect[T]Pad_1000x2500_um 1 -1500 0)
+      (pin Rect[T]Pad_1000x2500_um 2 1500 0)
+    )
+    (image Capacitors_SMD:C_1206
+      (outline (path signal 50  -2300 1150  2300 1150))
+      (outline (path signal 50  -2300 -1150  2300 -1150))
+      (outline (path signal 50  -2300 1150  -2300 -1150))
+      (outline (path signal 50  2300 1150  2300 -1150))
+      (outline (path signal 150  1000 1025  -1000 1025))
+      (outline (path signal 150  -1000 -1025  1000 -1025))
+      (pin Rect[T]Pad_1000x1600_um 1 -1500 0)
+      (pin Rect[T]Pad_1000x1600_um 2 1500 0)
+    )
+    (image Pin_Headers:Pin_Header_Straight_1x06
+      (outline (path signal 50  -1750 1750  -1750 -14450))
+      (outline (path signal 50  1750 1750  1750 -14450))
+      (outline (path signal 50  -1750 1750  1750 1750))
+      (outline (path signal 50  -1750 -14450  1750 -14450))
+      (outline (path signal 150  1270 -1270  1270 -13970))
+      (outline (path signal 150  1270 -13970  -1270 -13970))
+      (outline (path signal 150  -1270 -13970  -1270 -1270))
+      (outline (path signal 150  1550 1550  1550 0))
+      (outline (path signal 150  1270 -1270  -1270 -1270))
+      (outline (path signal 150  -1550 0  -1550 1550))
+      (outline (path signal 150  -1550 1550  1550 1550))
+      (pin Rect[A]Pad_2032x1727.2_um 1 0 0)
+      (pin Oval[A]Pad_2032x1727.2_um 2 0 -2540)
+      (pin Oval[A]Pad_2032x1727.2_um 3 0 -5080)
+      (pin Oval[A]Pad_2032x1727.2_um 4 0 -7620)
+      (pin Oval[A]Pad_2032x1727.2_um 5 0 -10160)
+      (pin Oval[A]Pad_2032x1727.2_um 6 0 -12700)
+    )
+    (image "fet-libs:OSTT7030150"
+      (outline (path signal 150  0 0  19700 0))
+      (outline (path signal 150  19700 0  19700 12500))
+      (outline (path signal 150  0 12500  19700 12500))
+      (outline (path signal 150  0 12500  0 0))
+      (pin Round[A]Pad_1600_um 1 3800 8000)
+      (pin Round[A]Pad_1600_um 2 10150 8000)
+      (pin Round[A]Pad_1600_um 3 16500 8000)
+    )
+    (image "fet-libs:OSTT7020150"
+      (outline (path signal 150  0 0  13350 0))
+      (outline (path signal 150  13350 0  13350 12500))
+      (outline (path signal 150  0 12500  13350 12500))
+      (outline (path signal 150  0 12500  0 0))
+      (pin Round[A]Pad_1600_um 1 3800 8000)
+      (pin Round[A]Pad_1600_um 2 10150 8000)
+    )
+    (image "fet-libs:D2PAK-7"
+      (outline (path signal 150  -254 1397  -254 2540))
+      (outline (path signal 150  381 1397  381 2540))
+      (outline (path signal 150  -254 1397  381 1397))
+      (outline (path signal 200  3460 2540  3460 -1270))
+      (outline (path signal 200  3460 -1270  4160 -1270))
+      (outline (path signal 200  4160 -1270  4160 2540))
+      (outline (path signal 200  2190 2540  2190 -1270))
+      (outline (path signal 200  2190 -1270  2890 -1270))
+      (outline (path signal 200  2890 -1270  2890 2540))
+      (outline (path signal 200  920 2540  920 -1270))
+      (outline (path signal 200  920 -1270  1620 -1270))
+      (outline (path signal 200  1620 -1270  1620 2540))
+      (outline (path signal 200  -1620 2540  -1620 -1270))
+      (outline (path signal 200  -1620 -1270  -920 -1270))
+      (outline (path signal 200  -920 -1270  -920 2540))
+      (outline (path signal 200  -2890 2540  -2890 -1270))
+      (outline (path signal 200  -2890 -1270  -2190 -1270))
+      (outline (path signal 200  -2190 -1270  -2190 2540))
+      (outline (path signal 200  -4160 2540  -4160 -1270))
+      (outline (path signal 200  -4160 -1270  -3460 -1270))
+      (outline (path signal 200  -3460 -1270  -3460 2540))
+      (outline (path signal 200  -3175 3810  -3206.08 3613.77  -3296.27 3436.76  -3436.76 3296.27
+            -3613.77 3206.08  -3810 3175  -4006.23 3206.08  -4183.24 3296.27
+            -4323.73 3436.76  -4413.92 3613.77  -4445 3810  -4413.92 4006.23
+            -4323.73 4183.24  -4183.24 4323.73  -4006.23 4413.92  -3810 4445
+            -3613.77 4413.92  -3436.76 4323.73  -3296.27 4183.24  -3206.08 4006.23))
+      (outline (path signal 200  -5080 11811  -5080 12446))
+      (outline (path signal 200  -5080 12446  -4445 13081))
+      (outline (path signal 200  -4445 13081  4445 13081))
+      (outline (path signal 200  4445 13081  5080 12446))
+      (outline (path signal 200  5080 12446  5080 11811))
+      (outline (path signal 200  -5080 2540  5080 2540))
+      (outline (path signal 200  5080 2540  5080 11811))
+      (outline (path signal 200  5080 11811  -5080 11811))
+      (outline (path signal 200  -5080 11811  -5080 2540))
+      (pin Rect[T]Pad_10160x7620_um 4 0 9525)
+      (pin Rect[T]Pad_700x2540_um 1 -3810 0)
+      (pin Rect[T]Pad_700x2540_um 2 -2540 0)
+      (pin Rect[T]Pad_700x2540_um 3 -1270 0)
+      (pin Rect[T]Pad_700x2540_um 5 1270 0)
+      (pin Rect[T]Pad_700x2540_um 6 2540 0)
+      (pin Rect[T]Pad_700x2540_um 7 3810 0)
+    )
+    (image Resistors_SMD:R_0603
+      (outline (path signal 50  -1300 800  1300 800))
+      (outline (path signal 50  -1300 -800  1300 -800))
+      (outline (path signal 50  -1300 800  -1300 -800))
+      (outline (path signal 50  1300 800  1300 -800))
+      (outline (path signal 150  500 -675  -500 -675))
+      (outline (path signal 150  -500 675  500 675))
+      (pin Rect[T]Pad_500x900_um 1 -750 0)
+      (pin Rect[T]Pad_500x900_um 2 750 0)
+    )
+    (image "fet-libs:WSL3921"
+      (outline (path signal 150  10007.6 0  10007.6 5207))
+      (outline (path signal 150  10007.6 5207  0 5207))
+      (outline (path signal 150  0 5207  0 0))
+      (outline (path signal 150  0 0  10007.6 0))
+      (pin Rect[T]Pad_2692.4x6197.6_um 1 482.6 2603.5)
+      (pin Rect[T]Pad_2692.4x6197.6_um 2 9525 2603.5)
+    )
+    (padstack Round[A]Pad_1600_um
+      (shape (circle F.Cu 1600))
+      (shape (circle In1.Cu 1600))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2032x1727.2_um
+      (shape (path F.Cu 1727.2  -152.4 0  152.4 0))
+      (shape (path In1.Cu 1727.2  -152.4 0  152.4 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2032x1727.2_um
+      (shape (rect F.Cu -1016 -863.6 1016 863.6))
+      (shape (rect In1.Cu -1016 -863.6 1016 863.6))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2692.4x6197.6_um
+      (shape (rect F.Cu -1346.2 -3098.8 1346.2 3098.8))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_500x900_um
+      (shape (rect F.Cu -250 -450 250 450))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_700x2540_um
+      (shape (rect F.Cu -350 -1270 350 1270))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1000x2500_um
+      (shape (rect F.Cu -500 -1250 500 1250))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1000x1600_um
+      (shape (rect F.Cu -500 -800 500 800))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_10160x7620_um
+      (shape (rect F.Cu -5080 -3810 5080 3810))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle In1.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net 48V
+      (pins C1-1 C3-1 C5-1 P4-1 Q1-4 Q3-4 Q5-4)
+    )
+    (net GND
+      (pins C1-2 C2-2 C3-2 C4-2 C5-2 C6-2 P4-2 R3-2 R4-2 R5-2 R7-2 R10-2 R11-2 R12-2
+        R14-2 R17-2 R18-2 R19-2 R21-2)
+    )
+    (net A_EMF
+      (pins C2-1 P2-4 R6-1 R7-1)
+    )
+    (net B_EMF
+      (pins C4-1 P2-5 R13-1 R14-1)
+    )
+    (net C_EMF
+      (pins C6-1 P2-6 R20-1 R21-1)
+    )
+    (net A_HI
+      (pins P1-1 R1-2)
+    )
+    (net A_LO
+      (pins P1-2 R2-2)
+    )
+    (net B_HI
+      (pins P1-3 R8-2)
+    )
+    (net B_LO
+      (pins P1-4 R9-2)
+    )
+    (net C_HI
+      (pins P1-5 R15-2)
+    )
+    (net C_LO
+      (pins P1-6 R16-2)
+    )
+    (net A_CUR
+      (pins P2-1 Q2-2 Q2-3 Q2-5 Q2-6 Q2-7 R5-1)
+    )
+    (net B_CUR
+      (pins P2-2 Q4-2 Q4-3 Q4-5 Q4-6 Q4-7 R12-1)
+    )
+    (net C_CUR
+      (pins P2-3 Q6-2 Q6-3 Q6-5 Q6-6 Q6-7 R19-1)
+    )
+    (net MOTOR_C
+      (pins P3-1 Q5-2 Q5-3 Q5-5 Q5-6 Q5-7 Q6-4 R20-2)
+    )
+    (net MOTOR_B
+      (pins P3-2 Q3-2 Q3-3 Q3-5 Q3-6 Q3-7 Q4-4 R13-2)
+    )
+    (net MOTOR_A
+      (pins P3-3 Q1-2 Q1-3 Q1-5 Q1-6 Q1-7 Q2-4 R6-2)
+    )
+    (net /A_HI_G
+      (pins Q1-1 R1-1 R3-1)
+    )
+    (net /A_LO_G
+      (pins Q2-1 R2-1 R4-1)
+    )
+    (net /B_HI_G
+      (pins Q3-1 R8-1 R10-1)
+    )
+    (net /B_LO_G
+      (pins Q4-1 R9-1 R11-1)
+    )
+    (net /C_HI_G
+      (pins Q5-1 R15-1 R17-1)
+    )
+    (net /C_LO_G
+      (pins Q6-1 R16-1 R18-1)
+    )
+    (class kicad_default "" /A_HI_G /A_LO_G /B_HI_G /B_LO_G /C_HI_G /C_LO_G
+      48V A_CUR A_EMF A_HI A_LO B_CUR B_EMF B_HI B_LO C_CUR C_EMF C_HI C_LO
+      GND MOTOR_A MOTOR_B MOTOR_C
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

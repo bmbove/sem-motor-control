@@ -1,0 +1,81 @@
+
+(rules PCB driver-breakout
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 939)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 228.6)
+    (clear 178.0)
+    (clear 114.3 (type smd_to_turn_gap))
+    (clear 44.6 (type smd_smd))
+  )
+  (padstack "Via[0-1]_457.2:330.2_um"
+    (shape
+      (circle F.Cu 457.2 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 457.2 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_457.2:330.2_um" "Via[0-1]_457.2:330.2_um" default
+  )
+  (via 
+    "Via[0-1]_457.2:330.2_um-kicad_default" "Via[0-1]_457.2:330.2_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_457.2:330.2_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_457.2:330.2_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 228.6)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    PVDD GND "Net-(C2-Pad1)" "Net-(C3-Pad1)" "Net-(C4-Pad1)" "Net-(C6-Pad1)" "Net-(C6-Pad2)" /DriverIC/SP2
+    /DriverIC/SN2 /DriverIC/SP1 /DriverIC/SN1 "/DriverIC/SH_C" "Net-(C9-Pad2)" "/DriverIC/SH_B" "Net-(C10-Pad2)" "/DriverIC/SH_A"
+    "Net-(C11-Pad2)" "Net-(D1-Pad1)" "Net-(D1-Pad2)" "Net-(D2-Pad1)" "Net-(D2-Pad2)" "/DriverIC/EN_GATE" "/DriverIC/DC_CAL" /DriverIC/SCLK
+    /DriverIC/SDO /DriverIC/SDI /DriverIC/SCS /DriverIC/FAULT /DriverIC/OCTW "/DriverIC/INL_C" "/DriverIC/INH_C" "/DriverIC/INL_B"
+    "/DriverIC/INH_B" "/DriverIC/INL_A" "/DriverIC/INH_A" VCC /DriverIC/SO2 /DriverIC/SO1 "/DriverIC/GH_A" "/DriverIC/GL_A"
+    "/DriverIC/SL_A" "/DriverIC/GH_B" "/DriverIC/GL_B" "/DriverIC/SL_B" "/DriverIC/GH_C" "/DriverIC/GL_C" "/DriverIC/SL_C" "Net-(R5-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 228.6)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

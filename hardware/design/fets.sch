@@ -600,4 +600,6 @@ Wire Wire Line
 Connection ~ 3150 1550
 Connection ~ 5550 1550
 Connection ~ 8050 1550
+Text Notes 1250 1400 0    60   ~ 0
+Note: Replace all these\nlittle caps with one big one?
 $EndSCHEMATC
