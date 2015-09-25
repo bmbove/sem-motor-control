@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 6
+Sheet 3 6
 Title "SEM - MOSFET Array"
 Date ""
 Rev ""
@@ -185,8 +185,8 @@ Wire Wire Line
 	2150 2600 2050 2600
 Text GLabel 3125 1600 1    60   Input ~ 0
 48V
-Text Notes 700  6200 0    60   ~ 0
-Shunt Resistor\n.0003 Ohms\nWSL3921L3000FEB
+Text Notes 4150 5650 0    60   ~ 0
+Shunt Resistor:\n.0003 Ohms\nWSL3921L3000FEB
 $Comp
 L C C1
 U 1 1 55C0A5E0
@@ -269,8 +269,8 @@ SH_A
 Wire Wire Line
 	2650 2675 2650 2600
 Connection ~ 2650 2600
-Text Notes 950  7050 0    60   ~ 0
-Kelvin connections on shunts\nPlace amplifiers as close as possible to shunts
+Text Notes 4150 5950 0    60   ~ 0
+Kelvin connections on shunts,\nplace amplifiers as close as possible
 $Comp
 L C C?
 U 1 1 56024E1C
@@ -795,4 +795,12 @@ Wire Wire Line
 Connection ~ 8525 1800
 Wire Wire Line
 	8025 2150 8025 2200
+Wire Notes Line
+	4075 5325 6000 5325
+Wire Notes Line
+	4075 5325 4075 6000
+Wire Notes Line
+	4075 6000 6000 6000
+Wire Notes Line
+	6000 6000 6000 5325
 $EndSCHEMATC

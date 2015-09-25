@@ -728,4 +728,8 @@ Wire Wire Line
 	2500 5750 2500 5800
 Wire Wire Line
 	2500 5800 2450 5800
+Text Notes 2125 2100 0    60   ~ 0
+BSS84
+Text Notes 3275 2100 0    60   ~ 0
+BSS84
 $EndSCHEMATC
