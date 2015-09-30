@@ -32,18 +32,19 @@ LIBS:borniers
 LIBS:drv8303
 LIBS:dual-pmos
 LIBS:net-tie
+LIBS:st-shield-rev1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
-Title "Nucleo BLDC Shield"
+Title "SEM - MOSFET Array"
 Date ""
 Rev "v1.0"
-Comp "Oregon State University ASME"
-Comment1 "boveb@engr.oregonstate.edu"
-Comment2 "Designed by: Brian Bove"
-Comment3 ""
+Comp "Shell Eco-marathon Motor Controller"
+Comment1 "Designed by: Brian Bove"
+Comment2 "Oregon State University"
+Comment3 "ASME"
 Comment4 ""
 $EndDescr
 $EndSCHEMATC
