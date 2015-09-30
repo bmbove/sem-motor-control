@@ -32,7 +32,6 @@ LIBS:borniers
 LIBS:drv8303
 LIBS:dual-pmos
 LIBS:net-tie
-LIBS:st-shield-rev1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

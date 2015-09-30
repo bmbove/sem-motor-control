@@ -32,12 +32,11 @@ LIBS:borniers
 LIBS:drv8303
 LIBS:dual-pmos
 LIBS:net-tie
-LIBS:st-shield-rev1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 6 6
 Title "Nucleo BLDC Shield"
 Date ""
 Rev "v1.0"
@@ -47,4 +46,6 @@ Comment2 "Designed by: Brian Bove"
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 5100 4200 0    60   ~ 0
+MCP9701A
 $EndSCHEMATC
