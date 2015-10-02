@@ -32,12 +32,13 @@ LIBS:borniers
 LIBS:drv8303
 LIBS:dual-pmos
 LIBS:net-tie
+LIBS:ad8691
 LIBS:st-shield-rev1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title "SEM - MOSFET Array"
 Date ""
 Rev "v1.0"
@@ -76,5 +77,11 @@ S 6100 4350 950  1450
 U 55F1E8DE
 F0 "Temperature Sensors" 60
 F1 "temp_sense.sch" 60
+$EndSheet
+$Sheet
+S 8150 4225 900  1025
+U 560DD722
+F0 "Hall Effect Sensor Filters" 60
+F1 "hall_filters.sch" 60
 $EndSheet
 $EndSCHEMATC

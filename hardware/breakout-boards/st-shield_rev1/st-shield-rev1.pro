@@ -1,4 +1,4 @@
-update=Thu 10 Sep 2015 03:35:21 PM PDT
+update=Fri 02 Oct 2015 10:10:29 AM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=library/borniers
 LibName31=library/drv8303
 LibName32=library/dual-pmos
 LibName33=library/net-tie
+LibName34=library/ad8691

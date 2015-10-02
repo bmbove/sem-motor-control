@@ -1,0 +1,189 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:borniers
+LIBS:drv8303
+LIBS:dual-pmos
+LIBS:net-tie
+LIBS:ad8691
+LIBS:st-shield-rev1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R53
+U 1 1 560DD7AE
+P 5475 2425
+F 0 "R53" V 5555 2425 50  0000 C CNN
+F 1 "160" V 5475 2425 50  0000 C CNN
+F 2 "" V 5405 2425 30  0000 C CNN
+F 3 "" H 5475 2425 30  0000 C CNN
+	1    5475 2425
+	0    1    1    0   
+$EndComp
+$Comp
+L C C29
+U 1 1 560DD93D
+P 5925 2675
+F 0 "C29" H 5950 2775 50  0000 L CNN
+F 1 ".001u" H 5950 2575 50  0000 L CNN
+F 2 "" H 5963 2525 30  0000 C CNN
+F 3 "" H 5925 2675 60  0000 C CNN
+	1    5925 2675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 2425 6175 2425
+Wire Wire Line
+	5925 2425 5925 2525
+Wire Wire Line
+	5925 2825 5925 2900
+Wire Wire Line
+	5325 2425 5225 2425
+Connection ~ 5925 2425
+$Comp
+L GND #PWR042
+U 1 1 560DD9B0
+P 5925 2900
+F 0 "#PWR042" H 5925 2650 50  0001 C CNN
+F 1 "GND" H 5925 2750 50  0000 C CNN
+F 2 "" H 5925 2900 60  0000 C CNN
+F 3 "" H 5925 2900 60  0000 C CNN
+	1    5925 2900
+	1    0    0    -1  
+$EndComp
+Text HLabel 5225 2425 0    60   Input ~ 0
+HALL_A_IN
+Text HLabel 6175 2425 2    60   Output ~ 0
+HALL_A_OUT
+$Comp
+L R R54
+U 1 1 560DDBA5
+P 5475 3375
+F 0 "R54" V 5555 3375 50  0000 C CNN
+F 1 "160" V 5475 3375 50  0000 C CNN
+F 2 "" V 5405 3375 30  0000 C CNN
+F 3 "" H 5475 3375 30  0000 C CNN
+	1    5475 3375
+	0    1    1    0   
+$EndComp
+$Comp
+L C C30
+U 1 1 560DDBAB
+P 5925 3625
+F 0 "C30" H 5950 3725 50  0000 L CNN
+F 1 ".001u" H 5950 3525 50  0000 L CNN
+F 2 "" H 5963 3475 30  0000 C CNN
+F 3 "" H 5925 3625 60  0000 C CNN
+	1    5925 3625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 3375 6175 3375
+Wire Wire Line
+	5925 3375 5925 3475
+Wire Wire Line
+	5925 3775 5925 3850
+Wire Wire Line
+	5325 3375 5225 3375
+Connection ~ 5925 3375
+$Comp
+L GND #PWR043
+U 1 1 560DDBB6
+P 5925 3850
+F 0 "#PWR043" H 5925 3600 50  0001 C CNN
+F 1 "GND" H 5925 3700 50  0000 C CNN
+F 2 "" H 5925 3850 60  0000 C CNN
+F 3 "" H 5925 3850 60  0000 C CNN
+	1    5925 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 5225 3375 0    60   Input ~ 0
+HALL_B_IN
+Text HLabel 6175 3375 2    60   Output ~ 0
+HALL_B_OUT
+$Comp
+L R R55
+U 1 1 560DDCA6
+P 5475 4350
+F 0 "R55" V 5555 4350 50  0000 C CNN
+F 1 "160" V 5475 4350 50  0000 C CNN
+F 2 "" V 5405 4350 30  0000 C CNN
+F 3 "" H 5475 4350 30  0000 C CNN
+	1    5475 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L C C31
+U 1 1 560DDCAC
+P 5925 4600
+F 0 "C31" H 5950 4700 50  0000 L CNN
+F 1 ".001u" H 5950 4500 50  0000 L CNN
+F 2 "" H 5963 4450 30  0000 C CNN
+F 3 "" H 5925 4600 60  0000 C CNN
+	1    5925 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 4350 6175 4350
+Wire Wire Line
+	5925 4350 5925 4450
+Wire Wire Line
+	5925 4750 5925 4825
+Wire Wire Line
+	5325 4350 5225 4350
+Connection ~ 5925 4350
+$Comp
+L GND #PWR044
+U 1 1 560DDCB7
+P 5925 4825
+F 0 "#PWR044" H 5925 4575 50  0001 C CNN
+F 1 "GND" H 5925 4675 50  0000 C CNN
+F 2 "" H 5925 4825 60  0000 C CNN
+F 3 "" H 5925 4825 60  0000 C CNN
+	1    5925 4825
+	1    0    0    -1  
+$EndComp
+Text HLabel 5225 4350 0    60   Input ~ 0
+HALL_C_IN
+Text HLabel 6175 4350 2    60   Output ~ 0
+HALL_C_OUT
+$EndSCHEMATC
