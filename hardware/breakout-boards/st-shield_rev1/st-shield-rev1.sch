@@ -33,6 +33,8 @@ LIBS:drv8303
 LIBS:dual-pmos
 LIBS:net-tie
 LIBS:ad8691
+LIBS:drv8301
+LIBS:tlv62566
 LIBS:st-shield-rev1-cache
 EELAYER 25 0
 EELAYER END
