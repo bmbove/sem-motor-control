@@ -1,4 +1,4 @@
-update=Sun 11 Oct 2015 04:50:31 PM PDT
+update=Sun 11 Oct 2015 11:14:36 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=./plots
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -65,3 +75,4 @@ LibName33=library/net-tie
 LibName34=library/ad8691
 LibName35=library/drv8301
 LibName36=library/tlv62566
+LibName37=library/mcp9700
