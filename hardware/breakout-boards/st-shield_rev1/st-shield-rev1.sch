@@ -36,6 +36,7 @@ LIBS:ad8691
 LIBS:drv8301
 LIBS:tlv62566
 LIBS:mcp9700
+LIBS:fet_parts
 LIBS:st-shield-rev1-cache
 EELAYER 25 0
 EELAYER END
@@ -153,8 +154,8 @@ F7 "HALL_C_OUT" O R 3475 3250 60
 $EndSheet
 Text Notes 800  4550 0    60   ~ 12
 To do:
-Text Notes 975  5425 0    60   ~ 12
-voltage rating notes\ntest points:\n   driver various voltages\n   3.3V, 5V at converter output\n   1.65V output\n   emf outputs\n   neutral output\n   transistor gates
+Text Notes 875  4925 0    60   ~ 12
+voltage rating notes\nUART out\nUSB?
 $Sheet
 S 9725 3175 1225 175 
 U 561CA81A
@@ -203,7 +204,7 @@ U 1 1 56204064
 P 6200 2375
 F 0 "P2" H 6200 3425 50  0000 C CNN
 F 1 "CONN_02X20" V 6200 2375 50  0000 C CNN
-F 2 "" H 6200 1425 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 6200 1425 60  0001 C CNN
 F 3 "" H 6200 1425 60  0000 C CNN
 	1    6200 2375
 	1    0    0    -1  
@@ -214,7 +215,7 @@ U 1 1 56214694
 P 5500 1425
 F 0 "JP1" H 5500 1575 50  0000 C CNN
 F 1 "JUMPER" H 5500 1345 50  0000 C CNN
-F 2 "" H 5500 1425 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5500 1425 60  0001 C CNN
 F 3 "" H 5500 1425 60  0000 C CNN
 	1    5500 1425
 	1    0    0    -1  
@@ -234,31 +235,31 @@ F 3 "" H 7150 1550 60  0000 C CNN
 $EndComp
 Text Label 5550 1625 0    60   ~ 0
 LED_D
-Text Label 5550 1725 0    60   ~ 0
-INH_A
-Text Label 5550 1825 0    60   ~ 0
-INL_A
-Text Label 5550 2025 0    60   ~ 0
-INL_B
-Text Label 5550 1925 0    60   ~ 0
-INH_B
-Text Label 5550 2125 0    60   ~ 0
-INH_C
 Text Label 5550 2225 0    60   ~ 0
+INH_A
+Text Label 5550 2125 0    60   ~ 0
+INL_A
+Text Label 5550 1925 0    60   ~ 0
+INL_B
+Text Label 5550 2025 0    60   ~ 0
+INH_B
+Text Label 5550 1825 0    60   ~ 0
+INH_C
+Text Label 5550 1725 0    60   ~ 0
 INL_C
-Text Label 6725 1625 2    60   ~ 0
+Text Label 5550 2825 0    60   ~ 0
 SCS
-Text Label 6725 1725 2    60   ~ 0
+Text Label 5550 2725 0    60   ~ 0
 SDI
-Text Label 6725 1825 2    60   ~ 0
+Text Label 5550 2625 0    60   ~ 0
 SDO
-Text Label 6725 1925 2    60   ~ 0
+Text Label 5550 2525 0    60   ~ 0
 SCLK
-Text Label 6725 2025 2    60   ~ 0
+Text Label 5550 2925 0    60   ~ 0
 OCTW
-Text Label 6725 2125 2    60   ~ 0
+Text Label 5550 3025 0    60   ~ 0
 FAULT
-Text Label 6725 2225 2    60   ~ 0
+Text Label 5550 2325 0    60   ~ 0
 EN_G
 NoConn ~ 6450 2325
 Text Label 3700 4375 0    60   ~ 0
@@ -289,7 +290,7 @@ Text Label 3700 5750 0    60   ~ 0
 DC_CAL
 Text Label 3700 5850 0    60   ~ 0
 EN_G
-Text Label 5550 2325 0    60   ~ 0
+Text Label 5550 2425 0    60   ~ 0
 DC_CAL
 Text Label 8950 5200 2    60   ~ 0
 IA
@@ -311,13 +312,13 @@ Text Label 5500 5800 0    60   ~ 0
 BEMF
 Text Label 5500 5900 0    60   ~ 0
 CEMF
-Text Label 5550 2425 0    60   ~ 0
+Text Label 6850 1925 2    60   ~ 0
 MOTOR_N
-Text Label 5550 2525 0    60   ~ 0
+Text Label 6725 1625 2    60   ~ 0
 AEMF
-Text Label 5550 2625 0    60   ~ 0
+Text Label 6725 1725 2    60   ~ 0
 BEMF
-Text Label 5550 2725 0    60   ~ 0
+Text Label 6725 1825 2    60   ~ 0
 CEMF
 Text Label 3825 3000 2    60   ~ 0
 HALL_A
@@ -337,11 +338,11 @@ Text Label 3625 2250 2    60   ~ 0
 T1
 Text Label 3625 2375 2    60   ~ 0
 T2
-Text Label 5600 2825 0    60   ~ 0
+Text Label 6725 2025 2    60   ~ 0
 T0
-Text Label 5600 2925 0    60   ~ 0
+Text Label 6725 2125 2    60   ~ 0
 T1
-Text Label 5600 3025 0    60   ~ 0
+Text Label 6725 2225 2    60   ~ 0
 T2
 Text Label 9400 3250 0    60   ~ 0
 DC_IN
@@ -353,7 +354,7 @@ U 1 1 5626D723
 P 1075 2675
 F 0 "P1" H 1075 3025 50  0000 C CNN
 F 1 "CONN_01X06" V 1175 2675 50  0000 C CNN
-F 2 "" H 1075 2675 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 1075 2675 60  0001 C CNN
 F 3 "" H 1075 2675 60  0000 C CNN
 	1    1075 2675
 	-1   0    0    -1  
@@ -377,7 +378,7 @@ U 1 1 562705B4
 P 7475 4200
 F 0 "P3" H 7575 4275 50  0000 C CNN
 F 1 "CH_A" H 7725 4200 50  0000 C CNN
-F 2 "" H 7475 4200 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 7475 4200 60  0001 C CNN
 F 3 "" H 7475 4200 60  0000 C CNN
 	1    7475 4200
 	1    0    0    -1  
@@ -388,7 +389,7 @@ U 1 1 562706C0
 P 7475 4350
 F 0 "P4" H 7575 4400 50  0000 C CNN
 F 1 "CH_B" H 7725 4350 50  0000 C CNN
-F 2 "" H 7475 4350 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 7475 4350 60  0001 C CNN
 F 3 "" H 7475 4350 60  0000 C CNN
 	1    7475 4350
 	1    0    0    -1  
@@ -399,7 +400,7 @@ U 1 1 562707C1
 P 7475 4500
 F 0 "P5" H 7575 4550 50  0000 C CNN
 F 1 "CH_C" H 7725 4450 50  0000 C CNN
-F 2 "" H 7475 4500 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 7475 4500 60  0001 C CNN
 F 3 "" H 7475 4500 60  0000 C CNN
 	1    7475 4500
 	1    0    0    -1  
@@ -410,7 +411,7 @@ U 1 1 56272E6E
 P 9850 4075
 F 0 "P6" H 9850 4175 50  0000 C CNN
 F 1 "PVDD" H 10025 4075 50  0000 C CNN
-F 2 "" H 9850 4075 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 9850 4075 60  0001 C CNN
 F 3 "" H 9850 4075 60  0000 C CNN
 	1    9850 4075
 	1    0    0    -1  
@@ -423,7 +424,7 @@ U 1 1 5627397A
 P 10650 4075
 F 0 "P7" H 10650 4175 50  0000 C CNN
 F 1 "GND" H 10800 4075 50  0000 C CNN
-F 2 "" H 10650 4075 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01" H 10650 4075 60  0001 C CNN
 F 3 "" H 10650 4075 60  0000 C CNN
 	1    10650 4075
 	1    0    0    -1  
@@ -514,7 +515,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 1825 6725 1825
 Wire Wire Line
-	6450 1925 6725 1925
+	6450 1925 6850 1925
 Wire Wire Line
 	5950 1725 5550 1725
 Wire Wire Line
@@ -610,11 +611,11 @@ Wire Wire Line
 Wire Wire Line
 	3275 2375 3625 2375
 Wire Wire Line
-	5950 2825 5600 2825
+	5950 2825 5550 2825
 Wire Wire Line
-	5950 2925 5600 2925
+	5950 2925 5550 2925
 Wire Wire Line
-	5950 3025 5600 3025
+	5950 3025 5550 3025
 Wire Wire Line
 	9725 3250 9400 3250
 Wire Wire Line

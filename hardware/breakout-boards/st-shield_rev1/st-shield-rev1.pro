@@ -1,4 +1,4 @@
-update=Sun 11 Oct 2015 11:14:36 PM PDT
+update=Sun 18 Oct 2015 06:17:28 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -76,3 +76,4 @@ LibName34=library/ad8691
 LibName35=library/drv8301
 LibName36=library/tlv62566
 LibName37=library/mcp9700
+LibName38=/home/brian/projects/shell/sem-motor-control/hardware/breakout-boards/fets_rev1/library/fet_parts

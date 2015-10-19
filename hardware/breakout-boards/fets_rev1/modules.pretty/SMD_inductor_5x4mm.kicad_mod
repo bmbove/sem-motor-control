@@ -1,0 +1,12 @@
+(module SMD_inductor_5x4mm (layer F.Cu) (tedit 562431A9)
+  (fp_text reference REF** (at 2.794 1.6764) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value SMD_inductor_5x4mm (at 3.81 3.3782) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 0 -4.5339) (end 5.08 -4.5339) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0 0.5461) (end 5.08 0.5461) (layer F.SilkS) (width 0.15))
+  (pad 2 smd rect (at 4.3307 -1.9939) (size 1.4986 3.9878) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0.7493 -1.9939) (size 1.4986 3.9878) (layers F.Cu F.Paste F.Mask))
+)
