@@ -325,17 +325,6 @@ F 3 "" H 4300 3775 60  0000 C CNN
 $EndComp
 Text GLabel 4300 2700 1    60   Input ~ 0
 3V3
-$Comp
-L TST P27
-U 1 1 56245D56
-P 7550 3025
-F 0 "P27" H 7550 3325 50  0000 C BNN
-F 1 "TST" H 7550 3275 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7550 3025 60  0001 C CNN
-F 3 "" H 7550 3025 60  0000 C CNN
-	1    7550 3025
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7550 3375 7550 3475
 Wire Wire Line
