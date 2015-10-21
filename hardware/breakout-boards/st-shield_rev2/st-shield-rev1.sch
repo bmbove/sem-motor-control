@@ -42,7 +42,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title "SEM - MOSFET Array"
 Date ""
 Rev "v1.0"
@@ -53,7 +53,7 @@ Comment3 "ASME"
 Comment4 ""
 $EndDescr
 $Sheet
-S 4100 4025 1050 1975
+S 4100 4025 1050 1900
 U 55F1E8D5
 F0 "FET Driver" 60
 F1 "driver.sch" 60
@@ -83,12 +83,6 @@ F24 "INL_B" I L 4100 4675 60
 F25 "INL_C" I L 4100 4875 60 
 F26 "SL_B" I R 5150 4975 60 
 F27 "SL_C" I R 5150 5425 60 
-F28 "SN1" I R 5150 5675 60 
-F29 "SP1" I R 5150 5575 60 
-F30 "SN2" I R 5150 5900 60 
-F31 "SP2" I R 5150 5800 60 
-F32 "SO1" O L 4100 5025 60 
-F33 "SO2" O L 4100 5125 60 
 $EndSheet
 $Sheet
 S 5925 4025 1100 1975
@@ -98,32 +92,51 @@ F1 "fet_array.sch" 60
 F2 "MOTOR_A" O R 7025 4200 60 
 F3 "A_LO" I L 5925 4375 60 
 F4 "A_HI" I L 5925 4175 60 
-F5 "CUR_AN" O L 5925 5675 60 
-F6 "CUR_AP" O L 5925 5575 60 
+F5 "CUR_AN" O R 7025 5250 60 
+F6 "CUR_AP" O R 7025 5150 60 
 F7 "SL_A" O L 5925 4475 60 
 F8 "SH_A" O L 5925 4275 60 
 F9 "MOTOR_B" O R 7025 4350 60 
 F10 "B_LO" I L 5925 4875 60 
 F11 "B_HI" I L 5925 4675 60 
-F12 "CUR_BN" O L 5925 5900 60 
-F13 "CUR_BP" O L 5925 5800 60 
+F12 "CUR_BN" O R 7025 5500 60 
+F13 "CUR_BP" O R 7025 5400 60 
 F14 "SL_B" O L 5925 4975 60 
 F15 "SH_B" O L 5925 4775 60 
 F16 "MOTOR_C" O R 7025 4500 60 
 F17 "C_LO" I L 5925 5325 60 
 F18 "C_HI" I L 5925 5125 60 
+F19 "CUR_CN" O R 7025 5750 60 
+F20 "CUR_CP" O R 7025 5650 60 
 F21 "SL_C" O L 5925 5425 60 
 F22 "SH_C" O L 5925 5225 60 
-F23 "MOTOR_N" O R 7025 5600 60 
-F24 "AEMF" O R 7025 5700 60 
-F25 "BEMF" O R 7025 5800 60 
-F26 "CEMF" O R 7025 5900 60 
+F23 "MOTOR_N" O L 5925 5600 60 
+F24 "AEMF" O L 5925 5700 60 
+F25 "BEMF" O L 5925 5800 60 
+F26 "CEMF" O L 5925 5900 60 
+$EndSheet
+$Sheet
+S 7475 5050 1075 775 
+U 55F1E8DB
+F0 "Shunt Amplifiers" 60
+F1 "shunt_amps.sch" 60
+F2 "I_AP" I L 7475 5150 60 
+F3 "I_AN" I L 7475 5250 60 
+F4 "IA" O R 8550 5200 60 
+F5 "I_CP" I L 7475 5650 60 
+F6 "I_CN" I L 7475 5750 60 
+F7 "IC" O R 8550 5700 60 
+F8 "I_BP" I L 7475 5400 60 
+F9 "I_BN" I L 7475 5500 60 
+F10 "IB" O R 8550 5450 60 
 $EndSheet
 $Sheet
 S 1975 2025 1300 425 
 U 55F1E8DE
 F0 "Temperature Sensors" 60
 F1 "temp_sense.sch" 60
+F2 "T1" O R 3275 2250 60 
+F3 "T2" O R 3275 2375 60 
 F4 "T_MOTOR" I L 1975 2250 60 
 F5 "T0" O R 3275 2125 60 
 $EndSheet
@@ -196,7 +209,18 @@ F 3 "" H 6200 1425 60  0000 C CNN
 	1    6200 2375
 	1    0    0    -1  
 $EndComp
-Text GLabel 5450 1425 0    60   Output ~ 0
+$Comp
+L JUMPER JP1
+U 1 1 56214694
+P 5500 1425
+F 0 "JP1" H 5500 1575 50  0000 C CNN
+F 1 "JUMPER" H 5500 1345 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5500 1425 60  0001 C CNN
+F 3 "" H 5500 1425 60  0000 C CNN
+	1    5500 1425
+	1    0    0    -1  
+$EndComp
+Text GLabel 5050 1425 0    60   Output ~ 0
 3V3
 $Comp
 L GND #PWR02
@@ -268,17 +292,25 @@ Text Label 3700 5850 0    60   ~ 0
 EN_G
 Text Label 5550 2425 0    60   ~ 0
 DC_CAL
-Text Label 6725 2125 2    60   ~ 0
+Text Label 8950 5200 2    60   ~ 0
 IA
-Text Label 6725 2225 2    60   ~ 0
+Text Label 8950 5450 2    60   ~ 0
 IB
-Text Label 7450 5600 2    60   ~ 0
+Text Label 8950 5700 2    60   ~ 0
+IC
+Text Label 6725 2425 2    60   ~ 0
+IA
+Text Label 6725 2525 2    60   ~ 0
+IB
+Text Label 6725 2625 2    60   ~ 0
+IC
+Text Label 5500 5600 0    60   ~ 0
 MOTOR_N
-Text Label 7450 5700 2    60   ~ 0
+Text Label 5500 5700 0    60   ~ 0
 AEMF
-Text Label 7450 5800 2    60   ~ 0
+Text Label 5500 5800 0    60   ~ 0
 BEMF
-Text Label 7450 5900 2    60   ~ 0
+Text Label 5500 5900 0    60   ~ 0
 CEMF
 Text Label 6850 1925 2    60   ~ 0
 MOTOR_N
@@ -294,19 +326,27 @@ Text Label 3825 3125 2    60   ~ 0
 HALL_B
 Text Label 3825 3250 2    60   ~ 0
 HALL_C
-Text Label 6800 2425 2    60   ~ 0
+Text Label 6800 2725 2    60   ~ 0
 HALL_A
-Text Label 6800 2525 2    60   ~ 0
+Text Label 6800 2825 2    60   ~ 0
 HALL_B
-Text Label 6800 2625 2    60   ~ 0
+Text Label 6800 2925 2    60   ~ 0
 HALL_C
 Text Label 3625 2125 2    60   ~ 0
 T0
+Text Label 3625 2250 2    60   ~ 0
+T1
+Text Label 3625 2375 2    60   ~ 0
+T2
 Text Label 6725 2025 2    60   ~ 0
 T0
+Text Label 6725 2125 2    60   ~ 0
+T1
+Text Label 6725 2225 2    60   ~ 0
+T2
 Text Label 9400 3250 0    60   ~ 0
 DC_IN
-Text Label 6800 2725 2    60   ~ 0
+Text Label 6800 3025 2    60   ~ 0
 DC_IN
 $Comp
 L CONN_01X06 P1
@@ -429,6 +469,18 @@ Wire Wire Line
 Wire Wire Line
 	5925 5425 5150 5425
 Wire Wire Line
+	7025 5150 7475 5150
+Wire Wire Line
+	7475 5250 7025 5250
+Wire Wire Line
+	7025 5400 7475 5400
+Wire Wire Line
+	7475 5500 7025 5500
+Wire Wire Line
+	7025 5650 7475 5650
+Wire Wire Line
+	7475 5750 7025 5750
+Wire Wire Line
 	10275 2400 10275 2275
 Wire Wire Line
 	10025 1800 10275 1800
@@ -436,6 +488,10 @@ Wire Wire Line
 	10275 1800 10275 1875
 Wire Wire Line
 	10275 2700 10275 2750
+Wire Wire Line
+	5800 1425 5950 1425
+Wire Wire Line
+	5200 1425 5050 1425
 Wire Wire Line
 	7150 1425 7150 1550
 Wire Wire Line
@@ -446,7 +502,10 @@ Wire Wire Line
 	6600 1525 6600 1425
 Connection ~ 6600 1425
 Wire Wire Line
-	5450 1525 5950 1525
+	5950 1525 5850 1525
+Wire Wire Line
+	5850 1525 5850 1425
+Connection ~ 5850 1425
 Wire Wire Line
 	5550 1625 5950 1625
 Wire Wire Line
@@ -469,6 +528,10 @@ Wire Wire Line
 	5950 2125 5550 2125
 Wire Wire Line
 	5950 2225 5550 2225
+Wire Wire Line
+	6450 2125 6725 2125
+Wire Wire Line
+	6450 2225 6725 2225
 Wire Wire Line
 	6450 2025 6725 2025
 Wire Wire Line
@@ -502,19 +565,25 @@ Wire Wire Line
 Wire Wire Line
 	5950 2325 5550 2325
 Wire Wire Line
-	6450 2125 6725 2125
+	8550 5200 8950 5200
 Wire Wire Line
-	6450 2225 6725 2225
+	8550 5450 8950 5450
+Wire Wire Line
+	8550 5700 8950 5700
+Wire Wire Line
+	6450 2425 6725 2425
+Wire Wire Line
+	6450 2525 6725 2525
 Wire Wire Line
 	6450 2625 6725 2625
 Wire Wire Line
-	7450 5600 7025 5600
+	5925 5600 5500 5600
 Wire Wire Line
-	7450 5700 7025 5700
+	5925 5700 5500 5700
 Wire Wire Line
-	7450 5800 7025 5800
+	5925 5800 5500 5800
 Wire Wire Line
-	7450 5900 7025 5900
+	5925 5900 5500 5900
 Wire Wire Line
 	5950 2425 5550 2425
 Wire Wire Line
@@ -530,11 +599,17 @@ Wire Wire Line
 Wire Wire Line
 	3475 3250 3825 3250
 Wire Wire Line
-	6450 2425 6800 2425
+	6450 2725 6800 2725
 Wire Wire Line
-	6450 2525 6800 2525
+	6450 2825 6800 2825
+Wire Wire Line
+	6450 2925 6800 2925
 Wire Wire Line
 	3275 2125 3625 2125
+Wire Wire Line
+	3275 2250 3625 2250
+Wire Wire Line
+	3275 2375 3625 2375
 Wire Wire Line
 	5950 2825 5550 2825
 Wire Wire Line
@@ -544,7 +619,7 @@ Wire Wire Line
 Wire Wire Line
 	9725 3250 9400 3250
 Wire Wire Line
-	6450 2725 6800 2725
+	6450 3025 6800 3025
 Wire Wire Line
 	1275 2425 1425 2425
 Wire Wire Line
@@ -614,7 +689,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 3125 6800 3125
 Wire Wire Line
-	6800 2825 6800 3475
+	6800 3125 6800 3475
 Wire Wire Line
 	6450 3325 6800 3325
 Connection ~ 6800 3325
@@ -649,33 +724,4 @@ F 3 "" H 6800 3475 60  0000 C CNN
 	1    6800 3475
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5925 5575 5150 5575
-Wire Wire Line
-	5150 5675 5925 5675
-Wire Wire Line
-	5925 5800 5150 5800
-Wire Wire Line
-	5150 5900 5925 5900
-Text Label 3700 5025 0    60   ~ 0
-IA
-Text Label 3700 5125 0    60   ~ 0
-IB
-Wire Wire Line
-	4100 5025 3700 5025
-Wire Wire Line
-	3700 5125 4100 5125
-Text GLabel 5450 1525 0    60   Output ~ 0
-5V
-Wire Wire Line
-	5950 1425 5450 1425
-Wire Wire Line
-	6450 3025 6800 3025
-Connection ~ 6800 3125
-Wire Wire Line
-	6450 2925 6800 2925
-Connection ~ 6800 3025
-Wire Wire Line
-	6450 2825 6800 2825
-Connection ~ 6800 2925
 $EndSCHEMATC

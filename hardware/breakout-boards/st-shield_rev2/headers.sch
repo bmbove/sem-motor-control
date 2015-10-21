@@ -36,13 +36,12 @@ LIBS:ad8691
 LIBS:drv8301
 LIBS:tlv62566
 LIBS:mcp9700
-LIBS:fet_parts
 LIBS:st-shield-rev1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 2 8
 Title "SEM - MOSFET Array"
 Date ""
 Rev "v1.0"
