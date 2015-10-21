@@ -506,7 +506,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 2225 6725 2225
 Wire Wire Line
-	6450 2625 6725 2625
+	6450 2625 6800 2625
 Wire Wire Line
 	7450 5600 7025 5600
 Wire Wire Line

@@ -119,7 +119,7 @@ $EndComp
 Wire Wire Line
 	4825 4650 3875 4650
 Wire Wire Line
-	3875 4650 3875 4825
+	3875 4615 3875 4825
 $Comp
 L GND #PWR08
 U 1 1 561B3734
@@ -138,9 +138,9 @@ Wire Wire Line
 Text GLabel 4625 4350 0    60   Input ~ 0
 3V3
 Wire Wire Line
-	4825 4250 3225 4250
+	3225 4250 4825 4250
 Wire Wire Line
-	3225 4250 3225 4825
+	3225 4200 3225 4825
 $Comp
 L C C2
 U 1 1 561B4507
@@ -632,12 +632,12 @@ Wire Wire Line
 $Comp
 L TST P9
 U 1 1 562431B7
-P 3225 4250
-F 0 "P9" H 3225 4550 50  0000 C BNN
-F 1 "TST" H 3225 4500 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3225 4250 60  0001 C CNN
-F 3 "" H 3225 4250 60  0000 C CNN
-	1    3225 4250
+P 3225 4200
+F 0 "P9" H 3225 4500 50  0000 C BNN
+F 1 "TST" H 3225 4450 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3225 4200 60  0001 C CNN
+F 3 "" H 3225 4200 60  0000 C CNN
+	1    3225 4200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -657,12 +657,12 @@ Connection ~ 2950 3675
 $Comp
 L TST P11
 U 1 1 56243786
-P 3875 4650
-F 0 "P11" H 3875 4950 50  0000 C BNN
-F 1 "TST" H 3875 4900 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3875 4650 60  0001 C CNN
-F 3 "" H 3875 4650 60  0000 C CNN
-	1    3875 4650
+P 3875 4615
+F 0 "P11" H 3875 4915 50  0000 C BNN
+F 1 "TST" H 3875 4865 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3875 4615 60  0001 C CNN
+F 3 "" H 3875 4615 60  0000 C CNN
+	1    3875 4615
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -728,4 +728,6 @@ Wire Wire Line
 	4825 4450 4625 4450
 Wire Wire Line
 	4625 4550 4825 4550
+Connection ~ 3225 4250
+Connection ~ 3875 4650
 $EndSCHEMATC

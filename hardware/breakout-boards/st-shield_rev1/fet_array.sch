@@ -1163,12 +1163,12 @@ $EndComp
 $Comp
 L TST P20
 U 1 1 56245268
-P 6600 5525
-F 0 "P20" H 6600 5825 50  0000 C BNN
-F 1 "TST" H 6600 5775 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6600 5525 60  0001 C CNN
-F 3 "" H 6600 5525 60  0000 C CNN
-	1    6600 5525
+P 6600 5475
+F 0 "P20" H 6600 5775 50  0000 C BNN
+F 1 "TST" H 6600 5725 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6600 5475 60  0001 C CNN
+F 3 "" H 6600 5475 60  0000 C CNN
+	1    6600 5475
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1246,4 +1246,7 @@ Wire Wire Line
 Connection ~ 8900 3750
 Wire Wire Line
 	3025 3125 3025 3950
+Wire Wire Line
+	6600 5475 6600 5525
+Connection ~ 6600 5525
 $EndSCHEMATC
